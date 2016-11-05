@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F02753B1DCEA8260037D5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */; };
+		1F02753D1DCEA8260037D5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02753C1DCEA8260037D5A1 /* ViewController.swift */; };
+		1F0275401DCEA8260037D5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F02753E1DCEA8260037D5A1 /* Main.storyboard */; };
+		1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */; };
+		1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275441DCEA8260037D5A1 /* Assets.xcassets */; };
+		1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */; };
+		1F0275531DCEA8260037D5A1 /* Olympiad_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0275521DCEA8260037D5A1 /* Olympiad_SwiftTests.swift */; };
+		1F02755E1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02755D1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F02754F1DCEA8260037D5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F02752F1DCEA8260037D5A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0275361DCEA8260037D5A1;
+			remoteInfo = Olympiad_Swift;
+		};
+		1F02755A1DCEA8260037D5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F02752F1DCEA8260037D5A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0275361DCEA8260037D5A1;
+			remoteInfo = Olympiad_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympiad_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F02753C1DCEA8260037D5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F02753F1DCEA8260037D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0275421DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Olympiad_Swift.xcdatamodel; sourceTree = "<group>"; };
+		1F0275441DCEA8260037D5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0275471DCEA8260037D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F0275491DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F02754E1DCEA8260037D5A1 /* Olympiad_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0275521DCEA8260037D5A1 /* Olympiad_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftTests.swift; sourceTree = "<group>"; };
+		1F0275541DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0275591DCEA8260037D5A1 /* Olympiad_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F02755D1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftUITests.swift; sourceTree = "<group>"; };
+		1F02755F1DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0275341DCEA8260037D5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F02754B1DCEA8260037D5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0275561DCEA8260037D5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F02752E1DCEA8260037D5A1 = {
+			isa = PBXGroup;
+			children = (
+				1F0275391DCEA8260037D5A1 /* Olympiad_Swift */,
+				1F0275511DCEA8260037D5A1 /* Olympiad_SwiftTests */,
+				1F02755C1DCEA8260037D5A1 /* Olympiad_SwiftUITests */,
+				1F0275381DCEA8260037D5A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0275381DCEA8260037D5A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */,
+				1F02754E1DCEA8260037D5A1 /* Olympiad_SwiftTests.xctest */,
+				1F0275591DCEA8260037D5A1 /* Olympiad_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0275391DCEA8260037D5A1 /* Olympiad_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */,
+				1F02753C1DCEA8260037D5A1 /* ViewController.swift */,
+				1F02753E1DCEA8260037D5A1 /* Main.storyboard */,
+				1F0275441DCEA8260037D5A1 /* Assets.xcassets */,
+				1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */,
+				1F0275491DCEA8260037D5A1 /* Info.plist */,
+				1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */,
+			);
+			path = Olympiad_Swift;
+			sourceTree = "<group>";
+		};
+		1F0275511DCEA8260037D5A1 /* Olympiad_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0275521DCEA8260037D5A1 /* Olympiad_SwiftTests.swift */,
+				1F0275541DCEA8260037D5A1 /* Info.plist */,
+			);
+			path = Olympiad_SwiftTests;
+			sourceTree = "<group>";
+		};
+		1F02755C1DCEA8260037D5A1 /* Olympiad_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F02755D1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift */,
+				1F02755F1DCEA8260037D5A1 /* Info.plist */,
+			);
+			path = Olympiad_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0275361DCEA8260037D5A1 /* Olympiad_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0275621DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_Swift" */;
+			buildPhases = (
+				1F0275331DCEA8260037D5A1 /* Sources */,
+				1F0275341DCEA8260037D5A1 /* Frameworks */,
+				1F0275351DCEA8260037D5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Olympiad_Swift;
+			productName = Olympiad_Swift;
+			productReference = 1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F02754D1DCEA8260037D5A1 /* Olympiad_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0275651DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftTests" */;
+			buildPhases = (
+				1F02754A1DCEA8260037D5A1 /* Sources */,
+				1F02754B1DCEA8260037D5A1 /* Frameworks */,
+				1F02754C1DCEA8260037D5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0275501DCEA8260037D5A1 /* PBXTargetDependency */,
+			);
+			name = Olympiad_SwiftTests;
+			productName = Olympiad_SwiftTests;
+			productReference = 1F02754E1DCEA8260037D5A1 /* Olympiad_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F0275581DCEA8260037D5A1 /* Olympiad_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0275681DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */;
+			buildPhases = (
+				1F0275551DCEA8260037D5A1 /* Sources */,
+				1F0275561DCEA8260037D5A1 /* Frameworks */,
+				1F0275571DCEA8260037D5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F02755B1DCEA8260037D5A1 /* PBXTargetDependency */,
+			);
+			name = Olympiad_SwiftUITests;
+			productName = Olympiad_SwiftUITests;
+			productReference = 1F0275591DCEA8260037D5A1 /* Olympiad_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F02752F1DCEA8260037D5A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = UpscaleApps;
+				TargetAttributes = {
+					1F0275361DCEA8260037D5A1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 473SHKFLJ4;
+						ProvisioningStyle = Automatic;
+					};
+					1F02754D1DCEA8260037D5A1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 473SHKFLJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F0275361DCEA8260037D5A1;
+					};
+					1F0275581DCEA8260037D5A1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 473SHKFLJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F0275361DCEA8260037D5A1;
+					};
+				};
+			};
+			buildConfigurationList = 1F0275321DCEA8260037D5A1 /* Build configuration list for PBXProject "Olympiad_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F02752E1DCEA8260037D5A1;
+			productRefGroup = 1F0275381DCEA8260037D5A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0275361DCEA8260037D5A1 /* Olympiad_Swift */,
+				1F02754D1DCEA8260037D5A1 /* Olympiad_SwiftTests */,
+				1F0275581DCEA8260037D5A1 /* Olympiad_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0275351DCEA8260037D5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */,
+				1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */,
+				1F0275401DCEA8260037D5A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F02754C1DCEA8260037D5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0275571DCEA8260037D5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0275331DCEA8260037D5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F02753D1DCEA8260037D5A1 /* ViewController.swift in Sources */,
+				1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */,
+				1F02753B1DCEA8260037D5A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F02754A1DCEA8260037D5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0275531DCEA8260037D5A1 /* Olympiad_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0275551DCEA8260037D5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F02755E1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0275501DCEA8260037D5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0275361DCEA8260037D5A1 /* Olympiad_Swift */;
+			targetProxy = 1F02754F1DCEA8260037D5A1 /* PBXContainerItemProxy */;
+		};
+		1F02755B1DCEA8260037D5A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0275361DCEA8260037D5A1 /* Olympiad_Swift */;
+			targetProxy = 1F02755A1DCEA8260037D5A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F02753E1DCEA8260037D5A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F02753F1DCEA8260037D5A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0275471DCEA8260037D5A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F0275601DCEA8260037D5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0275611DCEA8260037D5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0275631DCEA8260037D5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F0275641DCEA8260037D5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F0275661DCEA8260037D5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				INFOPLIST_FILE = Olympiad_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympiad_Swift.app/Olympiad_Swift";
+			};
+			name = Debug;
+		};
+		1F0275671DCEA8260037D5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				INFOPLIST_FILE = Olympiad_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympiad_Swift.app/Olympiad_Swift";
+			};
+			name = Release;
+		};
+		1F0275691DCEA8260037D5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				INFOPLIST_FILE = Olympiad_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Olympiad_Swift;
+			};
+			name = Debug;
+		};
+		1F02756A1DCEA8260037D5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				INFOPLIST_FILE = Olympiad_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Olympiad_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0275321DCEA8260037D5A1 /* Build configuration list for PBXProject "Olympiad_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0275601DCEA8260037D5A1 /* Debug */,
+				1F0275611DCEA8260037D5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0275621DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0275631DCEA8260037D5A1 /* Debug */,
+				1F0275641DCEA8260037D5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F0275651DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0275661DCEA8260037D5A1 /* Debug */,
+				1F0275671DCEA8260037D5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F0275681DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0275691DCEA8260037D5A1 /* Debug */,
+				1F02756A1DCEA8260037D5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F0275421DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodel */,
+			);
+			currentVersion = 1F0275421DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodel */;
+			path = Olympiad_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F02752F1DCEA8260037D5A1 /* Project object */;
+}
