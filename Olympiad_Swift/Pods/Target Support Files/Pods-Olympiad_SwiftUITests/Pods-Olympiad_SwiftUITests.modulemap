@@ -1,0 +1,6 @@
+framework module Pods_Olympiad_SwiftUITests {
+  umbrella header "Pods-Olympiad_SwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
