@@ -15,15 +15,8 @@ target 'Olympiad_Swift' do
   pod 'Firebase/Auth'
   # Crash Reporting
   pod 'Firebase/Crash'
-
-  target 'Olympiad_SwiftTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'Olympiad_SwiftUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/AdMob'
 
 end

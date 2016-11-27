@@ -10,25 +10,46 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>08E4199CC9B3DD8EEC387C4B31C453B5</key>
+		<key>0595C33EDFC5C07E6BD060B4CAC60B82</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AE873A79D2F78978F9CB8A23EEBC7999</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A5E740D677A71049B5209A9B2042658</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>FirebaseAnalytics.framework</string>
+			<string>FirebaseInstanceID.framework</string>
 			<key>path</key>
-			<string>Frameworks/FirebaseAnalytics.framework</string>
+			<string>Frameworks/FirebaseInstanceID.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0C232669AC1FB219D7361A109D1C1572</key>
+		<key>0CF10AC206699344AFDED9BEAF8045E5</key>
 		<dict>
-			<key>fileRef</key>
-			<string>FF14B785B49C212A1C6C8268288A1A25</string>
+			<key>children</key>
+			<array>
+				<string>6CD6B058680B31F0BBF43C7730550759</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseStorage</string>
+			<key>path</key>
+			<string>FirebaseStorage</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0D28430ED3D31C6D3B7888A442E114C7</key>
 		<dict>
@@ -44,42 +65,35 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>0E06FCCAABF73E38DF00ED24DF1552CE</key>
+		<key>10517EC3B65FA0DA1FCD418BBA79B1F2</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0E08FB41AB25FC3DA0360BC8E83C5108</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C2358C6F968254B71497374C0FBFD29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>FirebaseDatabase</string>
+			<string>GoogleIPhoneUtilities.framework</string>
 			<key>path</key>
-			<string>FirebaseDatabase</string>
+			<string>Frameworks/GoogleIPhoneUtilities.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1297C6D527B2A10A5F680312478C24C9</key>
+		<key>1098908575A5B7DD80931FD5CF608B84</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>E3D16544B369700096215FF0E796C85A</string>
+				<string>C99FCC47822A234C00BDC5808F43167E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>Google-Mobile-Ads-SDK</string>
+			<key>path</key>
+			<string>Google-Mobile-Ads-SDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>151B7A40A1E7CCC70336009A1A442C9B</key>
+		<key>1E28004FEF33BE3CCD1F01CFD6D3952E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -88,82 +102,39 @@
 			<key>lastKnownFileType</key>
 			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests-resources.sh</string>
+			<string>Pods-Olympiad_Swift-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>16E8482CCB7384EFFEEFC604CDB8A260</key>
+		<key>2262D7450D709212B800A92593EB2A17</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FIRMessaging.h</string>
 			<key>path</key>
-			<string>Pods-Olympiad_Swift.debug.xcconfig</string>
+			<string>Headers/Public/FIRMessaging.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>176DBF76BE0BE2DFB54305D71EFA34DD</key>
+		<key>23DD5C92001B6189F20A3F71B062C80C</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>1297C6D527B2A10A5F680312478C24C9</string>
+				<string>31DDD5D598702EAAEEE2EB6758CB7E41</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>FirebaseCrash</string>
-			<key>path</key>
-			<string>FirebaseCrash</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>185343429C612331D0B7AF4DF376A7DB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Olympiad_SwiftUITests.framework</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1BF731D28EECE09B14E2924CBFBFF48B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1CE1FA41E4329A2F24A250025B426F5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>63379B636920D65CB5962F973F1104FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GoogleSymbolUtilities</string>
-			<key>path</key>
-			<string>GoogleSymbolUtilities</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D0951E37C5A065C7875233E1C14315C</key>
+		<key>256A00AA672EE0AA9784A291321248CE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -176,7 +147,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1F32ABE648337535AC4FC4715EC7B748</key>
+		<key>26EFEF637BF1B6143B2FDE19BA3EB62B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -185,169 +156,20 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests.debug.xcconfig</string>
+			<string>Pods-Olympiad_Swift.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2043B1510011EE9B352920C4C91B5C68</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E609309A8FCCD87EE4EB8C11403AF146</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A8E72A7C8B075F6F008928251EBB1EEB</string>
-				<string>6EC5E9580D236F55D5F5EE19B3C5D4BF</string>
-				<string>25CC93177236B9C237C3944DB72EC767</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Olympiad_SwiftTests</string>
-			<key>productName</key>
-			<string>Pods-Olympiad_SwiftTests</string>
-			<key>productReference</key>
-			<string>55DECB3928A0FBC96D05DD247311D900</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>20B8BD2CAE89865D69A2AD041D939352</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GoogleSymbolUtilities.framework</string>
-			<key>path</key>
-			<string>Frameworks/GoogleSymbolUtilities.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25CC93177236B9C237C3944DB72EC767</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B58EF7D31C56CDA157E267B5649BB938</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>26026F1173D461B76B8FEC4EBB0E84E6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1BF731D28EECE09B14E2924CBFBFF48B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftUITests/Pods-Olympiad_SwiftUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Olympiad_SwiftUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>27E4EFAE2C5713D8B02A5523BC689521</key>
+		<key>2B5A7213F0F40C5CBA8CE49F92B76AC2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C88083064919EAD4E0B435266CC57665</string>
-				<string>55DECB3928A0FBC96D05DD247311D900</string>
-				<string>185343429C612331D0B7AF4DF376A7DB</string>
+				<string>FE6F454DBD97A9E450A4415898CBA401</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29B085BA6964CA80E772A1277EAA43D6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CB546E0BEC7337EDB303DECC51FD2974</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FirebaseAnalytics</string>
-			<key>path</key>
-			<string>FirebaseAnalytics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A7685D9C090F6B67143ED746A2606E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests-acknowledgements.plist</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -365,11 +187,26 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>327604BB64F1F22B37C136F0336825C6</key>
+		<key>31DDD5D598702EAAEEE2EB6758CB7E41</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_Olympiad_Swift.framework</string>
+			<key>path</key>
+			<string>Pods-Olympiad_Swift.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>37A898FBE43CF6DB4A446F49009EE8D7</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>CD8AA52A7C361FCE1589AEDE828838B7</string>
+				<string>DF90A985383E14C4F9E9D9D464B50C62</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -378,23 +215,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>357D638526FD7C059607441A831D1252</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FirebaseInstanceID.framework</string>
-			<key>path</key>
-			<string>Frameworks/FirebaseInstanceID.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3AE3356BD1CF8A87F3EBC62EFB0585C3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1D0951E37C5A065C7875233E1C14315C</string>
+			<string>256A00AA672EE0AA9784A291321248CE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -404,44 +228,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>3BC811E6DA083C724E8BE3D90B282CE0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>515ECF854D5F8171649BACB10AA1FFEF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>875E7F961D9C919876C40602EF6ACB74</string>
-				<string>53EA0ABEB6DAC2F2CFBB7C23B514C3EA</string>
-				<string>5247160C9049D9706E0CDD9F3FDDA43F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Olympiad_SwiftUITests</string>
-			<key>productName</key>
-			<string>Pods-Olympiad_SwiftUITests</string>
-			<key>productReference</key>
-			<string>185343429C612331D0B7AF4DF376A7DB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>3BE9E3BE6E0BC0353C5B012F80C1EF5A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GoogleNetworkingUtilities.framework</string>
-			<key>path</key>
-			<string>Frameworks/GoogleNetworkingUtilities.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
 		<dict>
@@ -469,29 +255,29 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4628B74BEDF83BFA05DA54231CBAD93D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>83E20CF454025ECFD8EABEDDED35712E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GoogleInterchangeUtilities</string>
-			<key>path</key>
-			<string>GoogleInterchangeUtilities</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>474BE5889AB5762AB771AB2830F9491D</key>
+		<key>44B260566D79B4C766CAB0F3A7F23916</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests.modulemap</string>
+			<string>Pods-Olympiad_Swift-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>466A7AC2AC1045364B168EAE704ED768</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>70C68DBD808E555E1B096DEC3BC3C1EA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -573,72 +359,22 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>47CCE66D21E59B3B118A4DCB91657B05</key>
+		<key>4B2910839406AB0F0E7417CCEC2357CE</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>7DF15D53E02ABE8A5260199D050DF2FC</string>
+				<string>78D8460C307CDA6F6F5B05F2180D6EDA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Firebase</string>
+			<string>GoogleNetworkingUtilities</string>
 			<key>path</key>
-			<string>Firebase</string>
+			<string>GoogleNetworkingUtilities</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4B68AD363E8C21B34FE9CF3205771DB0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B97A932607E6175C7020CD0FBED4C7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50008988A7BA758470E43A6A828463B6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F1EC576078A9CCC721CAEE848FE3CCDC</string>
-				<string>474BE5889AB5762AB771AB2830F9491D</string>
-				<string>ABDC9B48BB88812D9F4C75DCDBAF94EC</string>
-				<string>2A7685D9C090F6B67143ED746A2606E1</string>
-				<string>FF14B785B49C212A1C6C8268288A1A25</string>
-				<string>4B97A932607E6175C7020CD0FBED4C7B</string>
-				<string>151B7A40A1E7CCC70336009A1A442C9B</string>
-				<string>F46DA58BD50934A8C2C3F0AE267C89B4</string>
-				<string>1BF731D28EECE09B14E2924CBFBFF48B</string>
-				<string>4B68AD363E8C21B34FE9CF3205771DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Olympiad_SwiftUITests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Olympiad_SwiftUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50FD29120F967B5F2C0A14884B501950</key>
+		<key>4CEB18469916082621D59E453C50BFD4</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -651,170 +387,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>515ECF854D5F8171649BACB10AA1FFEF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>26026F1173D461B76B8FEC4EBB0E84E6</string>
-				<string>7C0F92210DAB19B330C0A64F339997B3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5247160C9049D9706E0CDD9F3FDDA43F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CAB2D92B94F2922FBAD25FDE59140459</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52EF2F90D26D23A14FF922158891A959</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>357D638526FD7C059607441A831D1252</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53446894F6863ACE7DA29E17C58B3FC2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FCA2E712BC349E1675FBB186E8658EDB</string>
-				<string>52EF2F90D26D23A14FF922158891A959</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FirebaseInstanceID</string>
-			<key>path</key>
-			<string>FirebaseInstanceID</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53EA0ABEB6DAC2F2CFBB7C23B514C3EA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D04669E07EEB611DF34ED4211F28BB41</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>55DECB3928A0FBC96D05DD247311D900</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Olympiad_SwiftTests.framework</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>579C8D5302DE81FD7EE39E811E96B3AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A2115FA0C231F18E5309AB16A68AEA8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B6685A790325692085551267F43249D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5B6685A790325692085551267F43249D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63379B636920D65CB5962F973F1104FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>20B8BD2CAE89865D69A2AD041D939352</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67F4AA35A4704300EC3956B012D6E8E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3BE9E3BE6E0BC0353C5B012F80C1EF5A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6837D5439CF4961C106104A07B931BE3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FirebaseDatabase.framework</string>
-			<key>path</key>
-			<string>Frameworks/FirebaseDatabase.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6EC5E9580D236F55D5F5EE19B3C5D4BF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0E06FCCAABF73E38DF00ED24DF1552CE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>702CD7351BC258CBCA695F41BD2F5547</key>
+		<key>54AAA40DBB40C0B8457DF6D48E116E90</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -823,13 +396,59 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Firebase.h</string>
+			<string>FIRInstanceID.h</string>
 			<key>path</key>
-			<string>Headers/Firebase.h</string>
+			<string>Headers/Public/FIRInstanceID.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>71BE3D7BF7D9F069A61AB2269DE34F05</key>
+		<key>579C8D5302DE81FD7EE39E811E96B3AF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5AE101AB2F3F862637AA9E25984DB7E0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C595065867EACECFAAD21ED5BB54F880</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C563877E6AE45F3DA2712343301A03D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Olympiad_Swift.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>609B9121419554877C8FFDF531A7F5DC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FirebaseStorage.framework</string>
+			<key>path</key>
+			<string>Frameworks/FirebaseStorage.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>616E345B1032854F0186D14E1D0754B3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -838,14 +457,80 @@
 			<key>lastKnownFileType</key>
 			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests-resources.sh</string>
+			<string>Pods-Olympiad_Swift-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>617C25F63D80AE800E2AB92B026E377A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleNetworkingUtilities.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleNetworkingUtilities.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>670DD0581CF75187F0951428517036FE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2262D7450D709212B800A92593EB2A17</string>
+				<string>9A51C7208F7AC091071D4FB5CF54A578</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseMessaging</string>
+			<key>path</key>
+			<string>FirebaseMessaging</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6CD6B058680B31F0BBF43C7730550759</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>609B9121419554877C8FFDF531A7F5DC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>70C68DBD808E555E1B096DEC3BC3C1EA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A97C4B057A24BD1AEC6675EE1747EE9E</string>
+				<string>B1F6167CBAB26A906BBDA3157D310CDB</string>
+				<string>44B260566D79B4C766CAB0F3A7F23916</string>
+				<string>F1E7C52DE93DDB01BBD7E151BEA2F171</string>
+				<string>9CB6A7D2F1AC144B4B12511B55EE89B2</string>
+				<string>1E28004FEF33BE3CCD1F01CFD6D3952E</string>
+				<string>616E345B1032854F0186D14E1D0754B3</string>
+				<string>256A00AA672EE0AA9784A291321248CE</string>
+				<string>5C563877E6AE45F3DA2712343301A03D</string>
+				<string>26EFEF637BF1B6143B2FDE19BA3EB62B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Olympiad_Swift</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Olympiad_Swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>72266667FEBE22398CE8AA63B99CDD58</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>EF4057C570D5217C0559B74891AF7D97</string>
+			<string>26EFEF637BF1B6143B2FDE19BA3EB62B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -931,96 +616,15 @@
 			<key>productName</key>
 			<string>Pods-Olympiad_Swift</string>
 			<key>productReference</key>
-			<string>C88083064919EAD4E0B435266CC57665</string>
+			<string>31DDD5D598702EAAEEE2EB6758CB7E41</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>7AFD277C3C72F083C3AC00CD8D895F5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Olympiad_Swift-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C0F92210DAB19B330C0A64F339997B3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4B68AD363E8C21B34FE9CF3205771DB0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftUITests/Pods-Olympiad_SwiftUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Olympiad_SwiftUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7C2358C6F968254B71497374C0FBFD29</key>
+		<key>78D8460C307CDA6F6F5B05F2180D6EDA</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6837D5439CF4961C106104A07B931BE3</string>
+				<string>617C25F63D80AE800E2AB92B026E377A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1029,73 +633,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7C7027BCA749F95CD2753890A765A9A1</key>
+		<key>79E9641ADC560E45EB6BF5DBD278DC5C</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1F32ABE648337535AC4FC4715EC7B748</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftTests/Pods-Olympiad_SwiftTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Olympiad_SwiftTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>children</key>
+			<array>
+				<string>54AAA40DBB40C0B8457DF6D48E116E90</string>
+				<string>9643F12DC31BAAF5C396FC3D6F871784</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>FirebaseInstanceID</string>
+			<key>path</key>
+			<string>FirebaseInstanceID</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
@@ -1103,97 +655,49 @@
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>A02A77A716E9EA752A9C7FB0E7C48A0D</string>
-				<string>27E4EFAE2C5713D8B02A5523BC689521</string>
-				<string>A512DA42E01BC5C8C2934913A4168FC0</string>
+				<string>C1DB07398D85A0CDC109EE9A9B81538B</string>
+				<string>23DD5C92001B6189F20A3F71B062C80C</string>
+				<string>466A7AC2AC1045364B168EAE704ED768</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7DF15D53E02ABE8A5260199D050DF2FC</key>
+		<key>8282D7DA0858DB02D8379303AF593957</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>702CD7351BC258CBCA695F41BD2F5547</string>
+				<string>2B5A7213F0F40C5CBA8CE49F92B76AC2</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Analytics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80FDD66B593D8B2E701CED7E2970BFF1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>FirebaseCrash</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests-acknowledgements.markdown</string>
+			<string>FirebaseCrash</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>83E20CF454025ECFD8EABEDDED35712E</key>
+		<key>8709B3DDC81863D8E46261E0EAC4A48B</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D2B0112AB3E54E6FA356591D027FD794</string>
+				<string>BA945FCADC517E7643B96B304619F47D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8658D612CCAB60F1DA1D4416E5F93B04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>GoogleIPhoneUtilities</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>GoogleIPhoneUtilities</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8711D90861FCAC493FE00AD4A526D879</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>875E7F961D9C919876C40602EF6ACB74</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0C232669AC1FB219D7361A109D1C1572</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>8C5C68C69D1829608F0910CBFE7BA251</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>16E8482CCB7384EFFEEFC604CDB8A260</string>
+			<string>5C563877E6AE45F3DA2712343301A03D</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1258,6 +762,36 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>8FB1AE167DED104C0CF7D9F8E544A09C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F1D8B99B93E22D8EEF554F045A70B76F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Firebase</string>
+			<key>path</key>
+			<string>Firebase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93653DD484121A2919B935BC0BC5BC5D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5AE101AB2F3F862637AA9E25984DB7E0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseAnalytics</string>
+			<key>path</key>
+			<string>FirebaseAnalytics</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -1277,37 +811,11 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>949A9B7C41A07E79D3145D95581DA0F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Olympiad_Swift-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98A1247B020189F8BB462CAB5333287B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BA6FC44C6CEB90AFB49C818685A3988</key>
+		<key>9643F12DC31BAAF5C396FC3D6F871784</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>50FD29120F967B5F2C0A14884B501950</string>
+				<string>0A5E740D677A71049B5209A9B2042658</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1316,68 +824,85 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A02A77A716E9EA752A9C7FB0E7C48A0D</key>
+		<key>9A51C7208F7AC091071D4FB5CF54A578</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>47CCE66D21E59B3B118A4DCB91657B05</string>
-				<string>29B085BA6964CA80E772A1277EAA43D6</string>
-				<string>EEC8A2D76F4FAEE2D68E74F371588393</string>
-				<string>176DBF76BE0BE2DFB54305D71EFA34DD</string>
-				<string>0E08FB41AB25FC3DA0360BC8E83C5108</string>
-				<string>53446894F6863ACE7DA29E17C58B3FC2</string>
-				<string>4628B74BEDF83BFA05DA54231CBAD93D</string>
-				<string>CA90E98CEAEC86C6B83B5356ECA96BD9</string>
-				<string>1CE1FA41E4329A2F24A250025B426F5D</string>
-				<string>BC68CA9A8309648D3A3C1AE51DCD1AB2</string>
+				<string>F116F7256198503002DF9E2FECE45C6F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A0EA61FE380F98C80E563E5C5073F802</key>
+		<key>9CB6A7D2F1AC144B4B12511B55EE89B2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests.release.xcconfig</string>
+			<string>Pods-Olympiad_Swift-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A512DA42E01BC5C8C2934913A4168FC0</key>
+		<key>A30210D0BE53DB88ADF7E7EC331115F0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleInterchangeUtilities.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleInterchangeUtilities.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A416C9AF55E052A83FE42F8341ACA6D3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleSymbolUtilities.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleSymbolUtilities.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7622A72D3F9C063C5190663B7D78BD1</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>E513F3F3F4ACEA84AAB3BC4CE7A22EEA</string>
-				<string>C13504DB76576006F8BEC1577073EA15</string>
-				<string>50008988A7BA758470E43A6A828463B6</string>
+				<string>F71208A9368ECCEC423F1A3F9A00787F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>GoogleSymbolUtilities</string>
+			<key>path</key>
+			<string>GoogleSymbolUtilities</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A8E72A7C8B075F6F008928251EBB1EEB</key>
+		<key>A97C4B057A24BD1AEC6675EE1747EE9E</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5A2115FA0C231F18E5309AB16A68AEA8</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AAF678CED40D3499169D10F63CA0719E</key>
 		<dict>
@@ -1450,32 +975,98 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>ABDC9B48BB88812D9F4C75DCDBAF94EC</key>
+		<key>AC1FAC047A55D42A4D9791B6C8B44C00</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B85D99D043002E3E767A24952FF8C395</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleInterchangeUtilities</string>
+			<key>path</key>
+			<string>GoogleInterchangeUtilities</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AE873A79D2F78978F9CB8A23EEBC7999</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FirebaseDatabase.framework</string>
+			<key>path</key>
+			<string>Frameworks/FirebaseDatabase.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1F6167CBAB26A906BBDA3157D310CDB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests-acknowledgements.markdown</string>
+			<string>Pods-Olympiad_Swift.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B58EF7D31C56CDA157E267B5649BB938</key>
+		<key>B3911C4D3B75083D9DFDC5F10812881F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>E455A7E80F03CAECA36F3B11EFB0E747</string>
+			<key>children</key>
+			<array>
+				<string>4CEB18469916082621D59E453C50BFD4</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B49580CC238265561F37E4A362FDE1F8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0595C33EDFC5C07E6BD060B4CAC60B82</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseDatabase</string>
+			<key>path</key>
+			<string>FirebaseDatabase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B71E3BD85CA223E8F9FCC080D5CAB090</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleMobileAds.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleMobileAds.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B85D99D043002E3E767A24952FF8C395</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A30210D0BE53DB88ADF7E7EC331115F0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B8C5F5BA08D74422DEC9B37E2EC4A9F4</key>
 		<dict>
@@ -1490,6 +1081,19 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>BA945FCADC517E7643B96B304619F47D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>10517EC3B65FA0DA1FCD418BBA79B1F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
@@ -1503,99 +1107,72 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BC68CA9A8309648D3A3C1AE51DCD1AB2</key>
+		<key>C1DB07398D85A0CDC109EE9A9B81538B</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>327604BB64F1F22B37C136F0336825C6</string>
+				<string>8FB1AE167DED104C0CF7D9F8E544A09C</string>
+				<string>93653DD484121A2919B935BC0BC5BC5D</string>
+				<string>CAA45115FDF7DA4622A1585681C11E5D</string>
+				<string>8282D7DA0858DB02D8379303AF593957</string>
+				<string>B49580CC238265561F37E4A362FDE1F8</string>
+				<string>79E9641ADC560E45EB6BF5DBD278DC5C</string>
+				<string>670DD0581CF75187F0951428517036FE</string>
+				<string>0CF10AC206699344AFDED9BEAF8045E5</string>
+				<string>1098908575A5B7DD80931FD5CF608B84</string>
+				<string>AC1FAC047A55D42A4D9791B6C8B44C00</string>
+				<string>8709B3DDC81863D8E46261E0EAC4A48B</string>
+				<string>4B2910839406AB0F0E7417CCEC2357CE</string>
+				<string>A7622A72D3F9C063C5190663B7D78BD1</string>
+				<string>D2B7B19C2D2EC26D61F0A52EA4BE1129</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>GoogleUtilities</string>
-			<key>path</key>
-			<string>GoogleUtilities</string>
+			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C13504DB76576006F8BEC1577073EA15</key>
+		<key>C595065867EACECFAAD21ED5BB54F880</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>8711D90861FCAC493FE00AD4A526D879</string>
-				<string>C5B22ABFD14E3779B6DAE2DB5ADC9746</string>
-				<string>80FDD66B593D8B2E701CED7E2970BFF1</string>
-				<string>E8B217B947FBC800E0DF557CBD2DC586</string>
-				<string>5B6685A790325692085551267F43249D</string>
-				<string>98A1247B020189F8BB462CAB5333287B</string>
-				<string>71BE3D7BF7D9F069A61AB2269DE34F05</string>
-				<string>E455A7E80F03CAECA36F3B11EFB0E747</string>
-				<string>1F32ABE648337535AC4FC4715EC7B748</string>
-				<string>A0EA61FE380F98C80E563E5C5073F802</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Olympiad_SwiftTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Olympiad_SwiftTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5B22ABFD14E3779B6DAE2DB5ADC9746</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C88083064919EAD4E0B435266CC57665</key>
-		<dict>
-			<key>explicitFileType</key>
+			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods_Olympiad_Swift.framework</string>
+			<string>FirebaseAnalytics.framework</string>
 			<key>path</key>
-			<string>Pods-Olympiad_Swift.framework</string>
+			<string>Frameworks/FirebaseAnalytics.framework</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CA90E98CEAEC86C6B83B5356ECA96BD9</key>
+		<key>C99FCC47822A234C00BDC5808F43167E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>67F4AA35A4704300EC3956B012D6E8E7</string>
+				<string>B71E3BD85CA223E8F9FCC080D5CAB090</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>GoogleNetworkingUtilities</string>
-			<key>path</key>
-			<string>GoogleNetworkingUtilities</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CAB2D92B94F2922FBAD25FDE59140459</key>
+		<key>CAA45115FDF7DA4622A1585681C11E5D</key>
 		<dict>
-			<key>fileRef</key>
-			<string>F46DA58BD50934A8C2C3F0AE267C89B4</string>
+			<key>children</key>
+			<array>
+				<string>B3911C4D3B75083D9DFDC5F10812881F</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseAuth</string>
+			<key>path</key>
+			<string>FirebaseAuth</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CB32E2BF90C7FEA6240A29C339B1C5AF</key>
 		<dict>
@@ -1610,32 +1187,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>CB546E0BEC7337EDB303DECC51FD2974</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>08E4199CC9B3DD8EEC387C4B31C453B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD8AA52A7C361FCE1589AEDE828838B7</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GoogleUtilities.framework</string>
-			<key>path</key>
-			<string>Frameworks/GoogleUtilities.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
 		<dict>
 			<key>isa</key>
@@ -1649,56 +1200,25 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>D04669E07EEB611DF34ED4211F28BB41</key>
+		<key>D2B7B19C2D2EC26D61F0A52EA4BE1129</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>children</key>
+			<array>
+				<string>37A898FBE43CF6DB4A446F49009EE8D7</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D0A2118F6DD16CA07774FDA7DDE80CF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Olympiad_Swift-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D102BE7B5DEA1E9875AAFB244A47C5C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Olympiad_Swift-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D2B0112AB3E54E6FA356591D027FD794</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>GoogleInterchangeUtilities.framework</string>
+			<string>GoogleUtilities</string>
 			<key>path</key>
-			<string>Frameworks/GoogleInterchangeUtilities.framework</string>
+			<string>GoogleUtilities</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D35AB193DA9139AA1E826A9F7DD7C4D0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D0A2118F6DD16CA07774FDA7DDE80CF9</string>
+			<string>9CB6A7D2F1AC144B4B12511B55EE89B2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1728,7 +1248,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>27E4EFAE2C5713D8B02A5523BC689521</string>
+			<string>23DD5C92001B6189F20A3F71B062C80C</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1738,24 +1258,9 @@
 			<key>targets</key>
 			<array>
 				<string>739DD1E5630D51436BEE516ED841925E</string>
-				<string>2043B1510011EE9B352920C4C91B5C68</string>
-				<string>3BC811E6DA083C724E8BE3D90B282CE0</string>
 			</array>
 		</dict>
-		<key>E3D16544B369700096215FF0E796C85A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FirebaseCrash.framework</string>
-			<key>path</key>
-			<string>Frameworks/FirebaseCrash.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E455A7E80F03CAECA36F3B11EFB0E747</key>
+		<key>DA4A149A74EE006D2529A40058D05096</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1763,131 +1268,53 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Firebase.h</string>
 			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests-umbrella.h</string>
+			<string>Headers/Firebase.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E513F3F3F4ACEA84AAB3BC4CE7A22EEA</key>
+		<key>DF90A985383E14C4F9E9D9D464B50C62</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleUtilities.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleUtilities.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F116F7256198503002DF9E2FECE45C6F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>FirebaseMessaging.framework</string>
+			<key>path</key>
+			<string>Frameworks/FirebaseMessaging.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F1D8B99B93E22D8EEF554F045A70B76F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>8658D612CCAB60F1DA1D4416E5F93B04</string>
-				<string>ED2D6673D0538D3DA720974B2408B995</string>
-				<string>7AFD277C3C72F083C3AC00CD8D895F5A</string>
-				<string>E8C318174DE21676F42DBF65D8280ED5</string>
-				<string>D0A2118F6DD16CA07774FDA7DDE80CF9</string>
-				<string>949A9B7C41A07E79D3145D95581DA0F8</string>
-				<string>D102BE7B5DEA1E9875AAFB244A47C5C1</string>
-				<string>1D0951E37C5A065C7875233E1C14315C</string>
-				<string>16E8482CCB7384EFFEEFC604CDB8A260</string>
-				<string>EF4057C570D5217C0559B74891AF7D97</string>
+				<string>DA4A149A74EE006D2529A40058D05096</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods-Olympiad_Swift</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Olympiad_Swift</string>
+			<string>Analytics</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E609309A8FCCD87EE4EB8C11403AF146</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7C7027BCA749F95CD2753890A765A9A1</string>
-				<string>E60BF9C9A8E18CE16E5FC56D870591C2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E60BF9C9A8E18CE16E5FC56D870591C2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A0EA61FE380F98C80E563E5C5073F802</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Olympiad_SwiftTests/Pods-Olympiad_SwiftTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Olympiad_SwiftTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E8B217B947FBC800E0DF557CBD2DC586</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8C318174DE21676F42DBF65D8280ED5</key>
+		<key>F1E7C52DE93DDB01BBD7E151BEA2F171</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1900,96 +1327,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ED2D6673D0538D3DA720974B2408B995</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Olympiad_Swift.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EEC8A2D76F4FAEE2D68E74F371588393</key>
+		<key>F71208A9368ECCEC423F1A3F9A00787F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>9BA6FC44C6CEB90AFB49C818685A3988</string>
+				<string>A416C9AF55E052A83FE42F8341ACA6D3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>FirebaseAuth</string>
-			<key>path</key>
-			<string>FirebaseAuth</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EF4057C570D5217C0559B74891AF7D97</key>
+		<key>FE6F454DBD97A9E450A4415898CBA401</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Olympiad_Swift.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1EC576078A9CCC721CAEE848FE3CCDC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F46DA58BD50934A8C2C3F0AE267C89B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCA2E712BC349E1675FBB186E8658EDB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>FIRInstanceID.h</string>
+			<string>FirebaseCrash.framework</string>
 			<key>path</key>
-			<string>Headers/Public/FIRInstanceID.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF14B785B49C212A1C6C8268288A1A25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Olympiad_SwiftUITests-dummy.m</string>
+			<string>Frameworks/FirebaseCrash.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

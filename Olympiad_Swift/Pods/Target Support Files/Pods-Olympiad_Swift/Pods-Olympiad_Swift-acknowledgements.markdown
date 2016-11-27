@@ -25,6 +25,22 @@ Copyright 2016 Google
 
 Copyright 2016 Google Inc.
 
+## FirebaseMessaging
+
+Copyright 2016 Google Inc.
+
+## FirebaseStorage
+
+Copyright 2016 Google Inc.
+
+## Google-Mobile-Ads-SDK
+
+Copyright 2011 Google Inc. All Rights Reserved.
+
+## GoogleIPhoneUtilities
+
+Copyright 2015 Google Inc.
+
 ## GoogleInterchangeUtilities
 
 Copyright 2015 Google Inc.

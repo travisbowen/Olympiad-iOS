@@ -2,12 +2,11 @@
 //  Olympiad_SwiftTests.swift
 //  Olympiad_SwiftTests
 //
-//  Created by Travis Bowen on 11/5/16.
+//  Created by buNny on 11/26/16.
 //  Copyright © 2016 UpscaleApps. All rights reserved.
 //
 
 import XCTest
-@testable import Olympiad_Swift
 
 class Olympiad_SwiftTests: XCTestCase {
     

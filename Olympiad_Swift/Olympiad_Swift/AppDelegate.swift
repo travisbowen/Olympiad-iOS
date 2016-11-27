@@ -20,17 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func application(application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?)
         -> Bool {
-              //For some reason this does not allow Firebase to work
-//            //Configure Firebase
-//            FIRApp.configure()
         return true
     }
     
-    //This is what I had to use to get Firebase to work
     override init() {
-        super.init()
         FIRApp.configure()
-        // not really needed unless you really need it FIRDatabase.database().persistenceEnabled = true
+        FIRDatabase.database().persistenceEnabled = true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -13,25 +13,24 @@
 		1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */; };
 		1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275441DCEA8260037D5A1 /* Assets.xcassets */; };
 		1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */; };
-		1F0275531DCEA8260037D5A1 /* Olympiad_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0275521DCEA8260037D5A1 /* Olympiad_SwiftTests.swift */; };
-		1F02755E1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02755D1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift */; };
-		1F3181431DD1A87200614671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F3181421DD1A87200614671 /* GoogleService-Info.plist */; };
-		1F3181441DD1A87200614671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F3181421DD1A87200614671 /* GoogleService-Info.plist */; };
-		1F3181451DD1A87200614671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F3181421DD1A87200614671 /* GoogleService-Info.plist */; };
 		7E3A391E65B9A2DD7F6CFBCE /* Pods_Olympiad_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */; };
-		A85EA79A50C6553474B37D1A /* Pods_Olympiad_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012C597C4E9A8B5171CBCFEA /* Pods_Olympiad_SwiftTests.framework */; };
-		C402D7BEFBA07D0F3C7FCE21 /* Pods_Olympiad_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8251A5E4A1DD766147B6D97B /* Pods_Olympiad_SwiftUITests.framework */; };
+		B0E2F09F1DE98A4400D4E5A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */; };
+		B0E2F0A71DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */; };
+		B0E2F0B51DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0B41DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift */; };
+		B0F5DCC71DE51E05001A18D3 /* EditAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */; };
+		B0F5DCC91DE51E2A001A18D3 /* EditBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5DCC81DE51E2A001A18D3 /* EditBViewController.swift */; };
+		B0F5DCCB1DE51E38001A18D3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5DCCA1DE51E38001A18D3 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F02754F1DCEA8260037D5A1 /* PBXContainerItemProxy */ = {
+		B0E2F0A91DEA9F9600D4E5A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F02752F1DCEA8260037D5A1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1F0275361DCEA8260037D5A1;
 			remoteInfo = Olympiad_Swift;
 		};
-		1F02755A1DCEA8260037D5A1 /* PBXContainerItemProxy */ = {
+		B0E2F0B71DEA9F9E00D4E5A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F02752F1DCEA8260037D5A1 /* Project object */;
 			proxyType = 1;
@@ -42,8 +41,6 @@
 
 /* Begin PBXFileReference section */
 		00BCA9E4830CBA8F5F07957F /* Pods-Olympiad_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		012C597C4E9A8B5171CBCFEA /* Pods_Olympiad_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympiad_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FBD2FF2D58C29D4952D3EE1 /* Pods-Olympiad_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_SwiftTests/Pods-Olympiad_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympiad_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F02753C1DCEA8260037D5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,20 +49,19 @@
 		1F0275441DCEA8260037D5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0275471DCEA8260037D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0275491DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F02754E1DCEA8260037D5A1 /* Olympiad_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F0275521DCEA8260037D5A1 /* Olympiad_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftTests.swift; sourceTree = "<group>"; };
-		1F0275541DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F0275591DCEA8260037D5A1 /* Olympiad_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F02755D1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftUITests.swift; sourceTree = "<group>"; };
-		1F02755F1DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F3181421DD1A87200614671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F365A8B1DD421BA00BE2FFC /* Olympiad_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Olympiad_Swift.entitlements; sourceTree = "<group>"; };
-		561A445EDA1242D248C56C2F /* Pods-Olympiad_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_SwiftTests/Pods-Olympiad_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		5FEBB8F6A6306248D8595F40 /* Pods-Olympiad_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympiad_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8251A5E4A1DD766147B6D97B /* Pods_Olympiad_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympiad_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6F7F90A14A72CE0811302F6 /* Pods-Olympiad_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_SwiftUITests/Pods-Olympiad_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5C01DAF188D0C7B47135B65 /* Pods-Olympiad_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_SwiftUITests/Pods-Olympiad_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0E2F0A41DEA9F9500D4E5A3 /* Olympiad_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftTests.swift; sourceTree = "<group>"; };
+		B0E2F0A81DEA9F9600D4E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E2F0B21DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E2F0B41DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftUITests.swift; sourceTree = "<group>"; };
+		B0E2F0B61DEA9F9E00D4E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAViewController.swift; sourceTree = "<group>"; };
+		B0F5DCC81DE51E2A001A18D3 /* EditBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBViewController.swift; sourceTree = "<group>"; };
+		B0F5DCCA1DE51E38001A18D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,19 +73,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F02754B1DCEA8260037D5A1 /* Frameworks */ = {
+		B0E2F0A11DEA9F9500D4E5A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85EA79A50C6553474B37D1A /* Pods_Olympiad_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F0275561DCEA8260037D5A1 /* Frameworks */ = {
+		B0E2F0AF1DEA9F9E00D4E5A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C402D7BEFBA07D0F3C7FCE21 /* Pods_Olympiad_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				1F0275391DCEA8260037D5A1 /* Olympiad_Swift */,
-				1F0275511DCEA8260037D5A1 /* Olympiad_SwiftTests */,
-				1F02755C1DCEA8260037D5A1 /* Olympiad_SwiftUITests */,
+				B0E2F0A51DEA9F9600D4E5A3 /* Olympiad_SwiftTests */,
+				B0E2F0B31DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests */,
 				1F0275381DCEA8260037D5A1 /* Products */,
 				AFD357A93AE9F62AB9446645 /* Pods */,
 				AF5E36BE6198C32258B614B5 /* Frameworks */,
@@ -112,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */,
-				1F02754E1DCEA8260037D5A1 /* Olympiad_SwiftTests.xctest */,
-				1F0275591DCEA8260037D5A1 /* Olympiad_SwiftUITests.xctest */,
+				B0E2F0A41DEA9F9500D4E5A3 /* Olympiad_SwiftTests.xctest */,
+				B0E2F0B21DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,40 +118,23 @@
 				1F365A8B1DD421BA00BE2FFC /* Olympiad_Swift.entitlements */,
 				1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */,
 				1F02753C1DCEA8260037D5A1 /* ViewController.swift */,
+				B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */,
+				B0F5DCC81DE51E2A001A18D3 /* EditBViewController.swift */,
+				B0F5DCCA1DE51E38001A18D3 /* ProfileViewController.swift */,
 				1F02753E1DCEA8260037D5A1 /* Main.storyboard */,
 				1F0275441DCEA8260037D5A1 /* Assets.xcassets */,
 				1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */,
+				B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */,
 				1F0275491DCEA8260037D5A1 /* Info.plist */,
 				1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */,
-				1F3181421DD1A87200614671 /* GoogleService-Info.plist */,
 			);
 			path = Olympiad_Swift;
-			sourceTree = "<group>";
-		};
-		1F0275511DCEA8260037D5A1 /* Olympiad_SwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F0275521DCEA8260037D5A1 /* Olympiad_SwiftTests.swift */,
-				1F0275541DCEA8260037D5A1 /* Info.plist */,
-			);
-			path = Olympiad_SwiftTests;
-			sourceTree = "<group>";
-		};
-		1F02755C1DCEA8260037D5A1 /* Olympiad_SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1F02755D1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift */,
-				1F02755F1DCEA8260037D5A1 /* Info.plist */,
-			);
-			path = Olympiad_SwiftUITests;
 			sourceTree = "<group>";
 		};
 		AF5E36BE6198C32258B614B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */,
-				012C597C4E9A8B5171CBCFEA /* Pods_Olympiad_SwiftTests.framework */,
-				8251A5E4A1DD766147B6D97B /* Pods_Olympiad_SwiftUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,12 +144,26 @@
 			children = (
 				00BCA9E4830CBA8F5F07957F /* Pods-Olympiad_Swift.debug.xcconfig */,
 				5FEBB8F6A6306248D8595F40 /* Pods-Olympiad_Swift.release.xcconfig */,
-				0FBD2FF2D58C29D4952D3EE1 /* Pods-Olympiad_SwiftTests.debug.xcconfig */,
-				561A445EDA1242D248C56C2F /* Pods-Olympiad_SwiftTests.release.xcconfig */,
-				D6F7F90A14A72CE0811302F6 /* Pods-Olympiad_SwiftUITests.debug.xcconfig */,
-				F5C01DAF188D0C7B47135B65 /* Pods-Olympiad_SwiftUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0E2F0A51DEA9F9600D4E5A3 /* Olympiad_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */,
+				B0E2F0A81DEA9F9600D4E5A3 /* Info.plist */,
+			);
+			path = Olympiad_SwiftTests;
+			sourceTree = "<group>";
+		};
+		B0E2F0B31DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E2F0B41DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift */,
+				B0E2F0B61DEA9F9E00D4E5A3 /* Info.plist */,
+			);
+			path = Olympiad_SwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F0275621DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_Swift" */;
 			buildPhases = (
-				B865CE1DA6BDEAEBDDA8DB2A /* 📦 Check Pods Manifest.lock */,
+				B865CE1DA6BDEAEBDDA8DB2A /* [CP] Check Pods Manifest.lock */,
 				1F0275331DCEA8260037D5A1 /* Sources */,
 				1F0275341DCEA8260037D5A1 /* Frameworks */,
 				1F0275351DCEA8260037D5A1 /* Resources */,
-				BEB2C74483EB743C63172659 /* 📦 Embed Pods Frameworks */,
-				D442F7A009D2A97945E096CF /* 📦 Copy Pods Resources */,
+				BEB2C74483EB743C63172659 /* [CP] Embed Pods Frameworks */,
+				D442F7A009D2A97945E096CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,45 +189,40 @@
 			productReference = 1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F02754D1DCEA8260037D5A1 /* Olympiad_SwiftTests */ = {
+		B0E2F0A31DEA9F9500D4E5A3 /* Olympiad_SwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0275651DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftTests" */;
+			buildConfigurationList = B0E2F0AB1DEA9F9600D4E5A3 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftTests" */;
 			buildPhases = (
-				996AE414A12672F85C6BEA64 /* 📦 Check Pods Manifest.lock */,
-				1F02754A1DCEA8260037D5A1 /* Sources */,
-				1F02754B1DCEA8260037D5A1 /* Frameworks */,
-				1F02754C1DCEA8260037D5A1 /* Resources */,
-				379BF9E68EC7826FEC782880 /* 📦 Embed Pods Frameworks */,
-				59FD77CA576EE070878B6A3D /* 📦 Copy Pods Resources */,
+				B0E2F0A01DEA9F9500D4E5A3 /* Sources */,
+				B0E2F0A11DEA9F9500D4E5A3 /* Frameworks */,
+				B0E2F0A21DEA9F9500D4E5A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F0275501DCEA8260037D5A1 /* PBXTargetDependency */,
+				B0E2F0AA1DEA9F9600D4E5A3 /* PBXTargetDependency */,
 			);
 			name = Olympiad_SwiftTests;
 			productName = Olympiad_SwiftTests;
-			productReference = 1F02754E1DCEA8260037D5A1 /* Olympiad_SwiftTests.xctest */;
+			productReference = B0E2F0A41DEA9F9500D4E5A3 /* Olympiad_SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F0275581DCEA8260037D5A1 /* Olympiad_SwiftUITests */ = {
+		B0E2F0B11DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F0275681DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */;
+			buildConfigurationList = B0E2F0B91DEA9F9E00D4E5A3 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */;
 			buildPhases = (
-				00C3266A4553DD6ABFED802B /* 📦 Check Pods Manifest.lock */,
-				1F0275551DCEA8260037D5A1 /* Sources */,
-				1F0275561DCEA8260037D5A1 /* Frameworks */,
-				1F0275571DCEA8260037D5A1 /* Resources */,
-				89431FD57765BA7573417D20 /* 📦 Copy Pods Resources */,
+				B0E2F0AE1DEA9F9E00D4E5A3 /* Sources */,
+				B0E2F0AF1DEA9F9E00D4E5A3 /* Frameworks */,
+				B0E2F0B01DEA9F9E00D4E5A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F02755B1DCEA8260037D5A1 /* PBXTargetDependency */,
+				B0E2F0B81DEA9F9E00D4E5A3 /* PBXTargetDependency */,
 			);
 			name = Olympiad_SwiftUITests;
 			productName = Olympiad_SwiftUITests;
-			productReference = 1F0275591DCEA8260037D5A1 /* Olympiad_SwiftUITests.xctest */;
+			productReference = B0E2F0B21DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +237,7 @@
 				TargetAttributes = {
 					1F0275361DCEA8260037D5A1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 473SHKFLJ4;
+						DevelopmentTeam = SSZA2FVX6P;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -259,15 +245,13 @@
 							};
 						};
 					};
-					1F02754D1DCEA8260037D5A1 = {
+					B0E2F0A31DEA9F9500D4E5A3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 473SHKFLJ4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1F0275361DCEA8260037D5A1;
 					};
-					1F0275581DCEA8260037D5A1 = {
+					B0E2F0B11DEA9F9E00D4E5A3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 473SHKFLJ4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1F0275361DCEA8260037D5A1;
 					};
@@ -287,8 +271,8 @@
 			projectRoot = "";
 			targets = (
 				1F0275361DCEA8260037D5A1 /* Olympiad_Swift */,
-				1F02754D1DCEA8260037D5A1 /* Olympiad_SwiftTests */,
-				1F0275581DCEA8260037D5A1 /* Olympiad_SwiftUITests */,
+				B0E2F0A31DEA9F9500D4E5A3 /* Olympiad_SwiftTests */,
+				B0E2F0B11DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,39 +283,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */,
-				1F3181431DD1A87200614671 /* GoogleService-Info.plist in Resources */,
 				1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */,
 				1F0275401DCEA8260037D5A1 /* Main.storyboard in Resources */,
+				B0E2F09F1DE98A4400D4E5A3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F02754C1DCEA8260037D5A1 /* Resources */ = {
+		B0E2F0A21DEA9F9500D4E5A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3181441DD1A87200614671 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F0275571DCEA8260037D5A1 /* Resources */ = {
+		B0E2F0B01DEA9F9E00D4E5A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F3181451DD1A87200614671 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00C3266A4553DD6ABFED802B /* 📦 Check Pods Manifest.lock */ = {
+		B865CE1DA6BDEAEBDDA8DB2A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,89 +321,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		379BF9E68EC7826FEC782880 /* 📦 Embed Pods Frameworks */ = {
+		BEB2C74483EB743C63172659 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Olympiad_SwiftTests/Pods-Olympiad_SwiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		59FD77CA576EE070878B6A3D /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Olympiad_SwiftTests/Pods-Olympiad_SwiftTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		89431FD57765BA7573417D20 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Olympiad_SwiftUITests/Pods-Olympiad_SwiftUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		996AE414A12672F85C6BEA64 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B865CE1DA6BDEAEBDDA8DB2A /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BEB2C74483EB743C63172659 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,14 +336,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D442F7A009D2A97945E096CF /* 📦 Copy Pods Resources */ = {
+		D442F7A009D2A97945E096CF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,40 +358,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F5DCCB1DE51E38001A18D3 /* ProfileViewController.swift in Sources */,
+				B0F5DCC91DE51E2A001A18D3 /* EditBViewController.swift in Sources */,
+				B0F5DCC71DE51E05001A18D3 /* EditAViewController.swift in Sources */,
 				1F02753D1DCEA8260037D5A1 /* ViewController.swift in Sources */,
 				1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */,
 				1F02753B1DCEA8260037D5A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F02754A1DCEA8260037D5A1 /* Sources */ = {
+		B0E2F0A01DEA9F9500D4E5A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0275531DCEA8260037D5A1 /* Olympiad_SwiftTests.swift in Sources */,
+				B0E2F0A71DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F0275551DCEA8260037D5A1 /* Sources */ = {
+		B0E2F0AE1DEA9F9E00D4E5A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F02755E1DCEA8260037D5A1 /* Olympiad_SwiftUITests.swift in Sources */,
+				B0E2F0B51DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F0275501DCEA8260037D5A1 /* PBXTargetDependency */ = {
+		B0E2F0AA1DEA9F9600D4E5A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F0275361DCEA8260037D5A1 /* Olympiad_Swift */;
-			targetProxy = 1F02754F1DCEA8260037D5A1 /* PBXContainerItemProxy */;
+			targetProxy = B0E2F0A91DEA9F9600D4E5A3 /* PBXContainerItemProxy */;
 		};
-		1F02755B1DCEA8260037D5A1 /* PBXTargetDependency */ = {
+		B0E2F0B81DEA9F9E00D4E5A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1F0275361DCEA8260037D5A1 /* Olympiad_Swift */;
-			targetProxy = 1F02755A1DCEA8260037D5A1 /* PBXContainerItemProxy */;
+			targetProxy = B0E2F0B71DEA9F9E00D4E5A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -607,7 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				DEVELOPMENT_TEAM = SSZA2FVX6P;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -623,7 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				DEVELOPMENT_TEAM = SSZA2FVX6P;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -633,62 +543,50 @@
 			};
 			name = Release;
 		};
-		1F0275661DCEA8260037D5A1 /* Debug */ = {
+		B0E2F0AC1DEA9F9600D4E5A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FBD2FF2D58C29D4952D3EE1 /* Pods-Olympiad_SwiftTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_SwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandbaks.Olympiad-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympiad_Swift.app/Olympiad_Swift";
 			};
 			name = Debug;
 		};
-		1F0275671DCEA8260037D5A1 /* Release */ = {
+		B0E2F0AD1DEA9F9600D4E5A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 561A445EDA1242D248C56C2F /* Pods-Olympiad_SwiftTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_SwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandbaks.Olympiad-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympiad_Swift.app/Olympiad_Swift";
 			};
 			name = Release;
 		};
-		1F0275691DCEA8260037D5A1 /* Debug */ = {
+		B0E2F0BA1DEA9F9E00D4E5A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6F7F90A14A72CE0811302F6 /* Pods-Olympiad_SwiftUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_SwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandbaks.Olympiad-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Olympiad_Swift;
 			};
 			name = Debug;
 		};
-		1F02756A1DCEA8260037D5A1 /* Release */ = {
+		B0E2F0BB1DEA9F9E00D4E5A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5C01DAF188D0C7B47135B65 /* Pods-Olympiad_SwiftUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_SwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.UpscaleApps.Olympiad-SwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandbaks.Olympiad-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Olympiad_Swift;
@@ -716,23 +614,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F0275651DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftTests" */ = {
+		B0E2F0AB1DEA9F9600D4E5A3 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F0275661DCEA8260037D5A1 /* Debug */,
-				1F0275671DCEA8260037D5A1 /* Release */,
+				B0E2F0AC1DEA9F9600D4E5A3 /* Debug */,
+				B0E2F0AD1DEA9F9600D4E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		1F0275681DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */ = {
+		B0E2F0B91DEA9F9E00D4E5A3 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F0275691DCEA8260037D5A1 /* Debug */,
-				1F02756A1DCEA8260037D5A1 /* Release */,
+				B0E2F0BA1DEA9F9E00D4E5A3 /* Debug */,
+				B0E2F0BB1DEA9F9E00D4E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
