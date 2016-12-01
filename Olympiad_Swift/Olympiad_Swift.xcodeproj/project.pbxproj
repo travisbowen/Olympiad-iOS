@@ -13,6 +13,9 @@
 		1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */; };
 		1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275441DCEA8260037D5A1 /* Assets.xcassets */; };
 		1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */; };
+		1F4FF6E71DED506600AB949A /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FF6E61DED506600AB949A /* PlaceViewController.swift */; };
+		1F5BF77A1DEE2D2000C1470B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */; };
+		1F5BF77C1DEE4E7D00C1470B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BF77B1DEE4E7D00C1470B /* User.swift */; };
 		7E3A391E65B9A2DD7F6CFBCE /* Pods_Olympiad_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */; };
 		B0E2F09F1DE98A4400D4E5A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */; };
 		B0E2F0A71DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */; };
@@ -50,6 +53,9 @@
 		1F0275471DCEA8260037D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0275491DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F365A8B1DD421BA00BE2FFC /* Olympiad_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Olympiad_Swift.entitlements; sourceTree = "<group>"; };
+		1F4FF6E61DED506600AB949A /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceViewController.swift; path = ../PlaceViewController.swift; sourceTree = "<group>"; };
+		1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1F5BF77B1DEE4E7D00C1470B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5FEBB8F6A6306248D8595F40 /* Pods-Olympiad_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympiad_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */,
 				B0F5DCC81DE51E2A001A18D3 /* EditBViewController.swift */,
 				B0F5DCCA1DE51E38001A18D3 /* ProfileViewController.swift */,
+				1F4FF6E61DED506600AB949A /* PlaceViewController.swift */,
+				1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */,
+				1F5BF77B1DEE4E7D00C1470B /* User.swift */,
 				1F02753E1DCEA8260037D5A1 /* Main.storyboard */,
 				1F0275441DCEA8260037D5A1 /* Assets.xcassets */,
 				1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */,
@@ -173,12 +182,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F0275621DCEA8260037D5A1 /* Build configuration list for PBXNativeTarget "Olympiad_Swift" */;
 			buildPhases = (
+				0AB0C9F8C74C3F45AF31EF0A /* 📦 Check Pods Manifest.lock */,
 				B865CE1DA6BDEAEBDDA8DB2A /* [CP] Check Pods Manifest.lock */,
 				1F0275331DCEA8260037D5A1 /* Sources */,
 				1F0275341DCEA8260037D5A1 /* Frameworks */,
 				1F0275351DCEA8260037D5A1 /* Resources */,
 				BEB2C74483EB743C63172659 /* [CP] Embed Pods Frameworks */,
 				D442F7A009D2A97945E096CF /* [CP] Copy Pods Resources */,
+				895976CBB0AAC81F5CF45ED5 /* 📦 Embed Pods Frameworks */,
+				7B6F677C7FB5025CF8E6AED9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +249,7 @@
 				TargetAttributes = {
 					1F0275361DCEA8260037D5A1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SSZA2FVX6P;
+						DevelopmentTeam = 473SHKFLJ4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -306,6 +318,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0AB0C9F8C74C3F45AF31EF0A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6F677C7FB5025CF8E6AED9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895976CBB0AAC81F5CF45ED5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B865CE1DA6BDEAEBDDA8DB2A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,7 +417,10 @@
 			files = (
 				B0F5DCCB1DE51E38001A18D3 /* ProfileViewController.swift in Sources */,
 				B0F5DCC91DE51E2A001A18D3 /* EditBViewController.swift in Sources */,
+				1F5BF77A1DEE2D2000C1470B /* SearchViewController.swift in Sources */,
 				B0F5DCC71DE51E05001A18D3 /* EditAViewController.swift in Sources */,
+				1F4FF6E71DED506600AB949A /* PlaceViewController.swift in Sources */,
+				1F5BF77C1DEE4E7D00C1470B /* User.swift in Sources */,
 				1F02753D1DCEA8260037D5A1 /* ViewController.swift in Sources */,
 				1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */,
 				1F02753B1DCEA8260037D5A1 /* AppDelegate.swift in Sources */,
@@ -517,7 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = SSZA2FVX6P;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -533,7 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = SSZA2FVX6P;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -621,6 +681,7 @@
 				B0E2F0AD1DEA9F9600D4E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0E2F0B91DEA9F9E00D4E5A3 /* Build configuration list for PBXNativeTarget "Olympiad_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +690,7 @@
 				B0E2F0BB1DEA9F9E00D4E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

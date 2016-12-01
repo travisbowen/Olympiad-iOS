@@ -10,6 +10,8 @@ import UIKit
 // Imported Firebase
 import CoreData
 import Firebase
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     override init() {
         FIRApp.configure()
         FIRDatabase.database().persistenceEnabled = true
+        GMSServices.provideAPIKey("AIzaSyB3EX1uMtaWw7n0t70YjIUUiRLbhpseRdw")
+        GMSPlacesClient.provideAPIKey("AIzaSyB3EX1uMtaWw7n0t70YjIUUiRLbhpseRdw")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -45,9 +45,17 @@ Copyright 2015 Google Inc.
 
 Copyright 2015 Google Inc.
 
+## GoogleMaps
+
+Copyright 2016 Google
+
 ## GoogleNetworkingUtilities
 
 Copyright 2015 Google Inc.
+
+## GooglePlaces
+
+Copyright 2016 Google
 
 ## GoogleSymbolUtilities
 
