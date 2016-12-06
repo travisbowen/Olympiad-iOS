@@ -23,5 +23,7 @@ target 'Olympiad_Swift' do
   
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  
+  pod 'JSQMessagesViewController'
 
 end

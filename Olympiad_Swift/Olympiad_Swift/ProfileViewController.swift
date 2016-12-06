@@ -24,6 +24,8 @@ class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerVie
     @IBOutlet weak var labelSkillLevel   : UILabel!
     @IBOutlet weak var menuItemBack      : UIMenuItem!
     @IBOutlet weak var buttonEditInfo    : UIButton!
+    
+    
     // View Variables
     var firebase: FIRDatabaseReference!
     
@@ -58,5 +60,10 @@ class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerVie
                 self.labelAgeGender.text = "\(g) - \(age)"
             }
         })
+    }
+    
+    
+    @IBAction func buttonLogout(_ sender: UIButton) {
+        
     }
 }

@@ -16,4 +16,8 @@ class User: NSObject {
     var age: String?
     var location: String?
     var image: String?
+    var reason: String?
+    var skill: String?
+    var motivation: String?
+    var workout: String?
 }
