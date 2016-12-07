@@ -14,10 +14,15 @@
 		1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275441DCEA8260037D5A1 /* Assets.xcassets */; };
 		1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */; };
 		1F1B661C1DF56E280024CF2D /* ChatLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B661B1DF56E280024CF2D /* ChatLogViewController.swift */; };
+		1F36AEC21DF783CA007D9092 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36AEC11DF783CA007D9092 /* ChatLogController.swift */; };
+		1F36AEC41DF7A287007D9092 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36AEC31DF7A287007D9092 /* Message.swift */; };
+		1F36AEC61DF7F44D007D9092 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36AEC51DF7F44D007D9092 /* UserCell.swift */; };
 		1F4FF6E71DED506600AB949A /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FF6E61DED506600AB949A /* PlaceViewController.swift */; };
 		1F5083431DEFEC0700FE3104 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5083411DEFEC0700FE3104 /* TableViewCell.swift */; };
 		1F5BF77A1DEE2D2000C1470B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */; };
 		1F5BF77C1DEE4E7D00C1470B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BF77B1DEE4E7D00C1470B /* User.swift */; };
+		1FC647441DF69A8100D51CE6 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC647431DF69A8100D51CE6 /* MessagesController.swift */; };
+		1FC647461DF6B02900D51CE6 /* NewMessageTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC647451DF6B02900D51CE6 /* NewMessageTableController.swift */; };
 		1FD780EE1DF28288007A8006 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD780ED1DF28288007A8006 /* UserProfileViewController.swift */; };
 		7E3A391E65B9A2DD7F6CFBCE /* Pods_Olympiad_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */; };
 		B0E2F09F1DE98A4400D4E5A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */; };
@@ -57,10 +62,15 @@
 		1F0275491DCEA8260037D5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F1B661B1DF56E280024CF2D /* ChatLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogViewController.swift; sourceTree = "<group>"; };
 		1F365A8B1DD421BA00BE2FFC /* Olympiad_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Olympiad_Swift.entitlements; sourceTree = "<group>"; };
+		1F36AEC11DF783CA007D9092 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		1F36AEC31DF7A287007D9092 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1F36AEC51DF7F44D007D9092 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		1F4FF6E61DED506600AB949A /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceViewController.swift; path = ../PlaceViewController.swift; sourceTree = "<group>"; };
 		1F5083411DEFEC0700FE3104 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1F5BF77B1DEE4E7D00C1470B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1FC647431DF69A8100D51CE6 /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		1FC647451DF6B02900D51CE6 /* NewMessageTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageTableController.swift; sourceTree = "<group>"; };
 		1FD780ED1DF28288007A8006 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		5FEBB8F6A6306248D8595F40 /* Pods-Olympiad_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Olympiad_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Olympiad_Swift/Pods-Olympiad_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Olympiad_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +155,11 @@
 				B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */,
 				1F0275491DCEA8260037D5A1 /* Info.plist */,
 				1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */,
+				1FC647431DF69A8100D51CE6 /* MessagesController.swift */,
+				1FC647451DF6B02900D51CE6 /* NewMessageTableController.swift */,
+				1F36AEC11DF783CA007D9092 /* ChatLogController.swift */,
+				1F36AEC31DF7A287007D9092 /* Message.swift */,
+				1F36AEC51DF7F44D007D9092 /* UserCell.swift */,
 			);
 			path = Olympiad_Swift;
 			sourceTree = "<group>";
@@ -424,9 +439,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F36AEC21DF783CA007D9092 /* ChatLogController.swift in Sources */,
 				B0F5DCCB1DE51E38001A18D3 /* ProfileViewController.swift in Sources */,
+				1FC647461DF6B02900D51CE6 /* NewMessageTableController.swift in Sources */,
 				B0F5DCC91DE51E2A001A18D3 /* EditBViewController.swift in Sources */,
+				1F36AEC61DF7F44D007D9092 /* UserCell.swift in Sources */,
 				1F5BF77A1DEE2D2000C1470B /* SearchViewController.swift in Sources */,
+				1FC647441DF69A8100D51CE6 /* MessagesController.swift in Sources */,
 				1F1B661C1DF56E280024CF2D /* ChatLogViewController.swift in Sources */,
 				B0F5DCC71DE51E05001A18D3 /* EditAViewController.swift in Sources */,
 				1F4FF6E71DED506600AB949A /* PlaceViewController.swift in Sources */,
@@ -434,6 +453,7 @@
 				1F5BF77C1DEE4E7D00C1470B /* User.swift in Sources */,
 				1F02753D1DCEA8260037D5A1 /* ViewController.swift in Sources */,
 				1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */,
+				1F36AEC41DF7A287007D9092 /* Message.swift in Sources */,
 				1FD780EE1DF28288007A8006 /* UserProfileViewController.swift in Sources */,
 				1F02753B1DCEA8260037D5A1 /* AppDelegate.swift in Sources */,
 			);

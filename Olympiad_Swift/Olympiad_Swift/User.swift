@@ -20,4 +20,5 @@ class User: NSObject {
     var skill: String?
     var motivation: String?
     var workout: String?
+    var id: String?
 }

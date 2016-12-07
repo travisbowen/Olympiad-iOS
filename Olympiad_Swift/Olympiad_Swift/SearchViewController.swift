@@ -78,7 +78,6 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
                 user.motivation = (dictionary["motivation"] as? String)!
                 user.workout = (dictionary["time"] as? String)!
                 
-                
                 self.userList.append(user)
                 
                 if self.signedUserAge == user.age{

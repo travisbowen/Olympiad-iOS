@@ -35,6 +35,13 @@ class UserProfileViewController: UIViewController {
         userMotivation.text = userInfoObject?.motivation
         userReason.text = userInfoObject?.reason
         userWorkoutTime.text = userInfoObject?.workout
+        
+        
+        let imageURL = NSURL(string: (userInfoObject?.image)!)
+        let imageData = NSData(contentsOf:imageURL as! URL)
+        let profileImage = UIImage(data: imageData as! Data)
+        userImage.image = profileImage
+        
     }
 
     override func didReceiveMemoryWarning() {
