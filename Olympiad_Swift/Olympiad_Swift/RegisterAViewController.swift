@@ -13,9 +13,9 @@ import Firebase
 import FirebaseAuth
 import FirebaseStorage
 
-class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate,
-    UITabBarDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
+class RegisterAViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate,
+UITabBarDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
     // View Outlets
     @IBOutlet weak var inputUserImage    : UIImageView!
     @IBOutlet weak var inputUserName     : UITextField!
@@ -41,17 +41,17 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         if let imageUpload = UIImagePNGRepresentation(self.inputUserImage.image!) {
             storage.put(imageUpload, metadata: nil,
                         completion: { (metadata, error) in
-                if error != nil {
-                    print(error as! String)
-                    return
-                }
-                // Update Profile Image with URL
-                if let imageURL = metadata?.downloadURL()?.absoluteString {
-                    self.firebase.child("users").child(userID!)
-                        .updateChildValues(["image": imageURL])
-                    
-                    self.updateProfile(userID: userID!)
-                }
+                            if error != nil {
+                                print(error as! String)
+                                return
+                            }
+                            // Update Profile Image with URL
+                            if let imageURL = metadata?.downloadURL()?.absoluteString {
+                                self.firebase.child("users").child(userID!)
+                                    .updateChildValues(["image": imageURL])
+                                
+                                self.updateProfile(userID: userID!)
+                            }
             })
         } else {
             self.updateProfile(userID: userID!)
@@ -68,7 +68,7 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
                                 "gender": self.inputUserGender.text!,
                                 "location": self.inputUserLocation.text!])
         
-        self.performSegue(withIdentifier: "nextEditPush", sender: nil)
+        self.performSegue(withIdentifier: "nextRegPush", sender: nil)
     }
     
     override func viewDidLoad() {
@@ -78,23 +78,6 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         let userID = FIRAuth.auth()?.currentUser?.uid
         // Delegates
         inputUserGender.delegate   = self
-        // View Tasks
-        // Load User if avaiable
-        self.firebase.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
-            // Get user value
-            let value = snapshot.value as? NSDictionary
-            self.inputUserName.text = value?["name"] as? String
-            self.inputUserAge.text = value?["age"] as? String
-            self.inputUserGender.text = value?["gender"] as? String
-            self.inputUserLocation.text = value?["location"] as? String
-            
-            if value?["image"] as? String != "" {
-                let imageURL = NSURL(string: value?["image"] as! String)
-                let imageData = NSData(contentsOf:imageURL as! URL)
-                let profileImage = UIImage(data: imageData as! Data)
-                self.inputUserImage.image = profileImage
-            }
-        })
         // Profile Image View on Tap -> Select Photo
         self.inputUserImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectImage)))
     }
@@ -135,23 +118,21 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-
+    
     func pickerView(_ pickerView: UIPickerView!, numberOfRowsInComponent component: Int) -> Int{
         return arrayGenders.count
     }
-
+    
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return arrayGenders[row]
     }
-
+    
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
     {
         inputUserGender.text = arrayGenders[row]
         pickerTextView.isHidden = true;
     }
-
     
-
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         if textField.tag == 9 {
             // Text Field is Gender Picker
@@ -161,7 +142,7 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         }
         return false
     }
-
+    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         return false
     }
