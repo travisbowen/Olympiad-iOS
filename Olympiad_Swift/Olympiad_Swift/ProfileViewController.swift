@@ -10,9 +10,12 @@
 import Foundation
 import UIKit
 import Firebase
+import GoogleMobileAds
 
-class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UITabBarDelegate {
+class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UITabBarDelegate, GADBannerViewDelegate {
     
+    
+    @IBOutlet weak var bannerView: GADBannerView!
     // View Outlets
     @IBOutlet weak var imageUserImage    : UIImageView!
     @IBOutlet weak var labelUserName     : UILabel!
@@ -30,6 +33,16 @@ class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerVie
     var firebase: FIRDatabaseReference!
     
     override func viewDidLoad() {
+        
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-1143273463088335/2290586000"
+        bannerView.rootViewController = self
+        bannerView.load(request)
+        
+        
+        
         // Variables 
         firebase = FIRDatabase.database().reference()
         let userID = FIRAuth.auth()?.currentUser?.uid

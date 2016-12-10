@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class UserProfileViewController: UIViewController {
+class UserProfileViewController: UIViewController, GADBannerViewDelegate {
 
- 
+    @IBOutlet weak var bannerView: GADBannerView!
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userGenderAge: UILabel!
@@ -27,6 +28,13 @@ class UserProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-1143273463088335/2290586000"
+        bannerView.rootViewController = self
+        bannerView.load(request)
         
         userName.text = userInfoObject?.name
         userGenderAge.text = userInfoObject?.gender

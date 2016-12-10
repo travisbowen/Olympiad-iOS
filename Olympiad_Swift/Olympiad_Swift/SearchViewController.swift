@@ -8,9 +8,11 @@
 
 import UIKit
 import Firebase
+import GoogleMobileAds
 
-
-class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GADBannerViewDelegate {
+    
+    @IBOutlet weak var bannerView: GADBannerView!
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
@@ -30,6 +32,13 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-1143273463088335/2290586000"
+        bannerView.rootViewController = self
+        bannerView.load(request)
         
         //Firebase reference
         firebase = FIRDatabase.database().reference()

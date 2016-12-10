@@ -19,6 +19,7 @@
 		1F36AEC61DF7F44D007D9092 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36AEC51DF7F44D007D9092 /* UserCell.swift */; };
 		1F4FF6E71DED506600AB949A /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FF6E61DED506600AB949A /* PlaceViewController.swift */; };
 		1F5083431DEFEC0700FE3104 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5083411DEFEC0700FE3104 /* TableViewCell.swift */; };
+		1F5484961DFBE30000110E7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5484951DFBE30000110E7B /* GoogleService-Info.plist */; };
 		1F5BF77A1DEE2D2000C1470B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */; };
 		1F5BF77C1DEE4E7D00C1470B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5BF77B1DEE4E7D00C1470B /* User.swift */; };
 		1FC647441DF69A8100D51CE6 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC647431DF69A8100D51CE6 /* MessagesController.swift */; };
@@ -29,7 +30,6 @@
 		B045DD281DFB8F1F00E15F13 /* RegisterBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045DD271DFB8F1F00E15F13 /* RegisterBViewController.swift */; };
 		B045DD2B1DFBADCE00E15F13 /* app_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B045DD291DFBADCE00E15F13 /* app_background.png */; };
 		B045DD2C1DFBADCE00E15F13 /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B045DD2A1DFBADCE00E15F13 /* app_logo.png */; };
-		B0E2F09F1DE98A4400D4E5A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */; };
 		B0E2F0A71DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */; };
 		B0E2F0B51DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0B41DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift */; };
 		B0F5DCC71DE51E05001A18D3 /* EditAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */; };
@@ -71,6 +71,7 @@
 		1F36AEC51DF7F44D007D9092 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		1F4FF6E61DED506600AB949A /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceViewController.swift; path = ../PlaceViewController.swift; sourceTree = "<group>"; };
 		1F5083411DEFEC0700FE3104 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1F5484951DFBE30000110E7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F5BF7791DEE2D2000C1470B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1F5BF77B1DEE4E7D00C1470B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1FC647431DF69A8100D51CE6 /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		B045DD271DFB8F1F00E15F13 /* RegisterBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBViewController.swift; sourceTree = "<group>"; };
 		B045DD291DFBADCE00E15F13 /* app_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_background.png; sourceTree = "<group>"; };
 		B045DD2A1DFBADCE00E15F13 /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo.png; sourceTree = "<group>"; };
-		B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B0E2F0A41DEA9F9500D4E5A3 /* Olympiad_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftTests.swift; sourceTree = "<group>"; };
 		B0E2F0A81DEA9F9600D4E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,8 +162,8 @@
 				1F02753E1DCEA8260037D5A1 /* Main.storyboard */,
 				1F0275441DCEA8260037D5A1 /* Assets.xcassets */,
 				1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */,
-				B0E2F09E1DE98A4400D4E5A3 /* GoogleService-Info.plist */,
 				1F0275491DCEA8260037D5A1 /* Info.plist */,
+				1F5484951DFBE30000110E7B /* GoogleService-Info.plist */,
 				1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */,
 				1FC647431DF69A8100D51CE6 /* MessagesController.swift */,
 				1FC647451DF6B02900D51CE6 /* NewMessageTableController.swift */,
@@ -285,7 +285,7 @@
 				TargetAttributes = {
 					1F0275361DCEA8260037D5A1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SSZA2FVX6P;
+						DevelopmentTeam = 473SHKFLJ4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -337,7 +337,7 @@
 				B045DD2C1DFBADCE00E15F13 /* app_logo.png in Resources */,
 				B045DD2B1DFBADCE00E15F13 /* app_background.png in Resources */,
 				1F0275401DCEA8260037D5A1 /* Main.storyboard in Resources */,
-				B0E2F09F1DE98A4400D4E5A3 /* GoogleService-Info.plist in Resources */,
+				1F5484961DFBE30000110E7B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = SSZA2FVX6P;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -643,7 +643,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = SSZA2FVX6P;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

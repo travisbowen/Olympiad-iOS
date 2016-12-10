@@ -11,11 +11,13 @@ import Foundation
 import UIKit
 import Firebase
 import FirebaseStorage
+import GoogleMobileAds
 
 class EditBViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UITabBarDelegate,
-                            UINavigationControllerDelegate, UIImagePickerControllerDelegate {
+                            UINavigationControllerDelegate, UIImagePickerControllerDelegate, GADBannerViewDelegate {
     
     // View Outlets
+    @IBOutlet weak var bannerView: GADBannerView!
     @IBOutlet weak var inputUserImage   : UIImageView!
     @IBOutlet weak var inputAppReason   : UITextField!
     @IBOutlet weak var inputWorkoutTime : UITextField!
@@ -81,6 +83,15 @@ class EditBViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        bannerView.delegate = self
+        bannerView.adUnitID = "ca-app-pub-1143273463088335/2290586000"
+        bannerView.rootViewController = self
+        bannerView.load(request)
+        
+        
         // Variables
         firebase = FIRDatabase.database().reference()
         let userID = FIRAuth.auth()?.currentUser?.uid

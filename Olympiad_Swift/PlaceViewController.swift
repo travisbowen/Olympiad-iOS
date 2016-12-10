@@ -7,11 +7,11 @@
 //
 
 import UIKit
+import Foundation
 import GoogleMaps
 import GooglePlaces
 
-
-class PlaceViewController: UIViewController, CLLocationManagerDelegate {
+class PlaceViewController: UIViewController, CLLocationManagerDelegate{
     
     let locationManager = CLLocationManager()
     var camera:GMSCameraPosition!
