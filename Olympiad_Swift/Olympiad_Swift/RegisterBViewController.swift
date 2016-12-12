@@ -102,12 +102,25 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate, GADBannerViewDe
         
         // Variables
         firebase = FIRDatabase.database().reference()
+        let userID = FIRAuth.auth()?.currentUser?.uid
         // Delegates
         inputAppReason.delegate   = self
         inputWorkoutTime.delegate = self
         inputMotivation.delegate  = self
         inputSkillLevel.delegate  = self
        
+        // Load User if avaiable
+        self.firebase.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user image
+            let value = snapshot.value as? NSDictionary
+            if value?["image"] as? String != "" {
+                let imageURL = NSURL(string: value?["image"] as! String)
+                let imageData = NSData(contentsOf:imageURL as! URL)
+                let profileImage = UIImage(data: imageData as! Data)
+                self.inputUserImage.image = profileImage
+            }
+        })
+        
         // Profile Image View on Tap -> Select Photo
         self.inputUserImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectImage)))
     }

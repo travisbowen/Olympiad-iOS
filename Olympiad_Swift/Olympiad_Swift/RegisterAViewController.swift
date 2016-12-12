@@ -96,6 +96,7 @@ CLLocationManagerDelegate, GADBannerViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        firebase = FIRDatabase.database().reference()
         
         let request = GADRequest()
         request.testDevices = [kGADSimulatorID]
