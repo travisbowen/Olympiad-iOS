@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1F02753B1DCEA8260037D5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */; };
 		1F02753D1DCEA8260037D5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02753C1DCEA8260037D5A1 /* ViewController.swift */; };
-		1F0275401DCEA8260037D5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F02753E1DCEA8260037D5A1 /* Main.storyboard */; };
 		1F0275431DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0275411DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodeld */; };
 		1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275441DCEA8260037D5A1 /* Assets.xcassets */; };
 		1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,8 @@
 		B045DD281DFB8F1F00E15F13 /* RegisterBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B045DD271DFB8F1F00E15F13 /* RegisterBViewController.swift */; };
 		B045DD2B1DFBADCE00E15F13 /* app_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B045DD291DFBADCE00E15F13 /* app_background.png */; };
 		B045DD2C1DFBADCE00E15F13 /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B045DD2A1DFBADCE00E15F13 /* app_logo.png */; };
+		B045DD2E1DFCC29F00E15F13 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B045DD2D1DFCC29F00E15F13 /* CoreLocation.framework */; };
+		B09606771DFE5E780062B75F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09606761DFE5E780062B75F /* Main.storyboard */; };
 		B0E2F0A71DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */; };
 		B0E2F0B51DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E2F0B41DEA9F9E00D4E5A3 /* Olympiad_SwiftUITests.swift */; };
 		B0F5DCC71DE51E05001A18D3 /* EditAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */; };
@@ -59,7 +60,6 @@
 		1F0275371DCEA8260037D5A1 /* Olympiad_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olympiad_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F02753C1DCEA8260037D5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F02753F1DCEA8260037D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F0275421DCEA8260037D5A1 /* Olympiad_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Olympiad_Swift.xcdatamodel; sourceTree = "<group>"; };
 		1F0275441DCEA8260037D5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0275471DCEA8260037D5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +83,8 @@
 		B045DD271DFB8F1F00E15F13 /* RegisterBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBViewController.swift; sourceTree = "<group>"; };
 		B045DD291DFBADCE00E15F13 /* app_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_background.png; sourceTree = "<group>"; };
 		B045DD2A1DFBADCE00E15F13 /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo.png; sourceTree = "<group>"; };
+		B045DD2D1DFCC29F00E15F13 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B09606761DFE5E780062B75F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B0E2F0A41DEA9F9500D4E5A3 /* Olympiad_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Olympiad_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E2F0A61DEA9F9600D4E5A3 /* Olympiad_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympiad_SwiftTests.swift; sourceTree = "<group>"; };
 		B0E2F0A81DEA9F9600D4E5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B045DD2E1DFCC29F00E15F13 /* CoreLocation.framework in Frameworks */,
 				7E3A391E65B9A2DD7F6CFBCE /* Pods_Olympiad_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,7 +162,7 @@
 				1F1B661B1DF56E280024CF2D /* ChatLogViewController.swift */,
 				1F5083411DEFEC0700FE3104 /* TableViewCell.swift */,
 				1F5BF77B1DEE4E7D00C1470B /* User.swift */,
-				1F02753E1DCEA8260037D5A1 /* Main.storyboard */,
+				B09606761DFE5E780062B75F /* Main.storyboard */,
 				1F0275441DCEA8260037D5A1 /* Assets.xcassets */,
 				1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */,
 				1F0275491DCEA8260037D5A1 /* Info.plist */,
@@ -179,6 +182,7 @@
 		AF5E36BE6198C32258B614B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B045DD2D1DFCC29F00E15F13 /* CoreLocation.framework */,
 				7A86E72A29090606BE4E075E /* Pods_Olympiad_Swift.framework */,
 			);
 			name = Frameworks;
@@ -285,7 +289,7 @@
 				TargetAttributes = {
 					1F0275361DCEA8260037D5A1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 473SHKFLJ4;
+						DevelopmentTeam = SSZA2FVX6P;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -332,11 +336,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09606771DFE5E780062B75F /* Main.storyboard in Resources */,
 				1F0275481DCEA8260037D5A1 /* LaunchScreen.storyboard in Resources */,
 				1F0275451DCEA8260037D5A1 /* Assets.xcassets in Resources */,
 				B045DD2C1DFBADCE00E15F13 /* app_logo.png in Resources */,
 				B045DD2B1DFBADCE00E15F13 /* app_background.png in Resources */,
-				1F0275401DCEA8260037D5A1 /* Main.storyboard in Resources */,
 				1F5484961DFBE30000110E7B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,14 +513,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F02753E1DCEA8260037D5A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F02753F1DCEA8260037D5A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F0275461DCEA8260037D5A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -627,7 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				DEVELOPMENT_TEAM = SSZA2FVX6P;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -643,7 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = 473SHKFLJ4;
+				DEVELOPMENT_TEAM = SSZA2FVX6P;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

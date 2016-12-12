@@ -23,6 +23,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate, GADBannerViewDe
     @IBOutlet weak var pickerTextView   : UIPickerView!
     @IBOutlet weak var menuItemBack     : UIMenuItem!
     @IBOutlet weak var buttonSaveInfo   : UIButton!
+    @IBOutlet weak var labelError        : UILabel!
     
     
     // View Variables
@@ -40,28 +41,37 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate, GADBannerViewDe
     
     // View Actions
     @IBAction func buttonSaveInfo (_ sender: UIButton) {
-        let userID = FIRAuth.auth()?.currentUser?.uid
-        
-        // Upload Image
-        let imageUID = NSUUID().uuidString
-        let storage = FIRStorage.storage().reference().child("Profile Images").child("\(imageUID)")
-        
-        if let imageUpload = UIImagePNGRepresentation(self.inputUserImage.image!) {
-            storage.put(imageUpload, metadata: nil,
-                        completion: { (metadata, error) in
-                            if error != nil {
-                                print(error as! String)
-                                return
-                            }
-                            // Update Profile Image with URL
-                            if let imageURL = metadata?.downloadURL()?.absoluteString {
-                                self.firebase.child("users").child(userID!)
-                                    .updateChildValues(["image": imageURL])
-                                self.updateProfile(userID: userID!)
-                            }
-            })
+        if inputUserImage.image == nil ||
+            inputWorkoutTime.text == "" ||
+            inputMotivation.text == "" ||
+            inputAppReason.text == "" ||
+            inputSkillLevel.text == "" {
+            labelError.text = "Please enter in all fields."
+            labelError.isHidden = false
         } else {
-            self.updateProfile(userID: userID!)
+            // Upload Image
+            labelError.isHidden = true
+            let userID = FIRAuth.auth()?.currentUser?.uid
+            let imageUID = NSUUID().uuidString
+            let storage = FIRStorage.storage().reference().child("Profile Images").child("\(imageUID)")
+            
+            if let imageUpload = UIImagePNGRepresentation(self.inputUserImage.image!) {
+                storage.put(imageUpload, metadata: nil,
+                            completion: { (metadata, error) in
+                                if error != nil {
+                                    print(error as! String)
+                                    return
+                                }
+                                // Update Profile Image with URL
+                                if let imageURL = metadata?.downloadURL()?.absoluteString {
+                                    self.firebase.child("users").child(userID!)
+                                        .updateChildValues(["image": imageURL])
+                                    self.updateProfile(userID: userID!)
+                                }
+                })
+            } else {
+                self.updateProfile(userID: userID!)
+            }
         }
     }
     

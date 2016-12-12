@@ -5,7 +5,6 @@
 //
 // ###################### VIEW NOTES ######################
 //
-
 import Foundation
 import UIKit
 import Firebase
@@ -16,7 +15,7 @@ import GoogleMobileAds
 
 class RegisterAViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate,
     UITabBarDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate,
-    CLLocationManagerDelegate, GADBannerViewDelegate {
+CLLocationManagerDelegate, GADBannerViewDelegate {
     
     // View Outlets
     @IBOutlet weak var bannerView: GADBannerView!
@@ -137,7 +136,7 @@ class RegisterAViewController : UIViewController, UITextFieldDelegate, UIPickerV
         }
         
     }
-
+    
     
     // Present Image Picker
     func selectImage () {

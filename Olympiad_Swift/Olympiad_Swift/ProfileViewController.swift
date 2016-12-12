@@ -77,6 +77,8 @@ class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerVie
     
     
     @IBAction func buttonLogout(_ sender: UIButton) {
-        
+        UserDefaults.standard.removeObject(forKey: "email")
+        UserDefaults.standard.removeObject(forKey: "password")
+        self.performSegue(withIdentifier: "logoutPush", sender: nil)
     }
 }

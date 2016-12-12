@@ -22,17 +22,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_background" translatesAutoresizingMaskIntoConstraints="NO" id="7ZY-fl-AYH">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="618"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7ZY-fl-AYH" secondAttribute="height" multiplier="320:569" id="ora-Ip-XIP"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4P7-vZ-ol5">
-                                <rect key="frame" x="57" y="314" width="207" height="30"/>
+                                <rect key="frame" x="57" y="265" width="207" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="vb6-VR-xxL"/>
                                 </constraints>
@@ -41,7 +41,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6em-1k-Uza">
-                                <rect key="frame" x="57" y="276" width="207" height="30"/>
+                                <rect key="frame" x="57" y="227" width="207" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="JOk-Iz-c6s"/>
                                 </constraints>
@@ -50,7 +50,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdQ-iU-pa3">
-                                <rect key="frame" x="57" y="352" width="207" height="42"/>
+                                <rect key="frame" x="57" y="303" width="207" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="vuD-A0-LrC"/>
                                 </constraints>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xos-WN-u2G">
-                                <rect key="frame" x="57" y="402" width="207" height="30"/>
+                                <rect key="frame" x="57" y="353" width="207" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ZZV-Hf-aBt"/>
                                 </constraints>
@@ -78,7 +78,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="BOg-Kc-UkQ">
-                                <rect key="frame" x="54" y="28" width="213" height="240"/>
+                                <rect key="frame" x="54" y="28" width="213" height="191"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="deviceRGB"/>
@@ -1065,7 +1065,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dq4-dc-HBS" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Discover" image="users-32px-outline_single-position" id="96u-3l-U31"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zga-3X-o3M">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Zga-3X-o3M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1084,7 +1084,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rpH-ev-fFC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Messages" image="messages-24px" id="2Rd-uC-0Vf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sm9-rY-rcP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Sm9-rY-rcP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1307,13 +1307,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to Upload Image" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2da-IC-dqQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
-                                <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
-                                <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMO-km-efj">
                                 <rect key="frame" x="0.0" y="489" width="320" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.81568627450980391" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
@@ -1427,6 +1420,13 @@
                                 <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to Upload Image" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2da-IC-dqQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <pickerView hidden="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpr-jC-VJe">
                                 <rect key="frame" x="0.0" y="228" width="321" height="340"/>
                                 <color key="backgroundColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1510,6 +1510,6 @@
         <image name="users-32px-outline_single-position" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Fox-f9-rQQ"/>
+        <segue reference="LuA-yk-Hkc"/>
     </inferredMetricsTieBreakers>
 </document>

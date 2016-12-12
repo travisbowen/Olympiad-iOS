@@ -85,6 +85,7 @@ class ViewController: UIViewController {
                 // User Signin Success
                 self.firebase.child("users").child(user!.uid).setValue(["email": self.userEmail.text!, "name": "",
                                                                         "age": "", "gender": "", "location": "",
+                                                                        "latitude": "", "longitude": "",
                                                                         "reason": "", "motivation": "", "skill": "",
                                                                         "time": "", "image": "", "rateing": ""])
                 // Save Email & Passowrd
@@ -92,7 +93,7 @@ class ViewController: UIViewController {
                     UserDefaults.standard.setValue(self.userEmail.text!, forKeyPath: "email")
                     UserDefaults.standard.setValue(self.userPass.text!, forKeyPath: "password")
                     UserDefaults.standard.synchronize()
-                    self.performSegue(withIdentifier: "signupPush", sender: nil)
+                    self.performSegue(withIdentifier: "regPush", sender: nil)
                 }
                 
             } else {

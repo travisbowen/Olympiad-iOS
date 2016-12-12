@@ -4,7 +4,6 @@
 //  Copyright © 2016 UpscaleApps. All rights reserved.
 //
 // ###################### VIEW NOTES ######################
-// - View is used for both Signup And Edit Views for Part A
 //
 
 import Foundation
@@ -13,9 +12,10 @@ import Firebase
 import FirebaseAuth
 import FirebaseStorage
 import GoogleMobileAds
+import CoreLocation
 
 class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewDelegate,
-    UITabBarDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GADBannerViewDelegate {
+    UITabBarDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GADBannerViewDelegate, CLLocationManagerDelegate {
 
     // View Outlets
     @IBOutlet weak var bannerView: GADBannerView!
@@ -26,37 +26,59 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
     @IBOutlet weak var inputUserLocation : UITextField!
     @IBOutlet weak var pickerTextView    : UIPickerView!
     @IBOutlet weak var menuItemBack      : UIMenuItem!
+    @IBOutlet weak var labelError        : UILabel!
     var firebase: FIRDatabaseReference!
     
     // View Variables
     var arrayGenders : [String] = ["Male", "Female", "Other"]
     var profileImage : UIImage!
+    let locationManager = CLLocationManager()
+    var latitude : Double = 0.0
+    var longitude : Double = 0.0
     
     // View Actions
+    @IBAction func getLocation (_ sender: UIButton) {
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.startUpdatingLocation()
+        locationManager.delegate = self
+    }
+    
     @IBAction func buttonNextInfo (_ sender: UIButton) {
-        let userID = FIRAuth.auth()?.currentUser?.uid
-        
-        // Upload Image
-        let imageUID = NSUUID().uuidString
-        let storage = FIRStorage.storage().reference().child("Profile Images").child("\(imageUID)")
-        
-        if let imageUpload = UIImagePNGRepresentation(self.inputUserImage.image!) {
-            storage.put(imageUpload, metadata: nil,
-                        completion: { (metadata, error) in
-                if error != nil {
-                    print(error as! String)
-                    return
-                }
-                // Update Profile Image with URL
-                if let imageURL = metadata?.downloadURL()?.absoluteString {
-                    self.firebase.child("users").child(userID!)
-                        .updateChildValues(["image": imageURL])
-                    
-                    self.updateProfile(userID: userID!)
-                }
-            })
+        let userID = FIRAuth.auth()!.currentUser!.uid
+        if inputUserImage.image == nil ||
+            inputUserName.text == "" ||
+            inputUserAge.text == "" ||
+            inputUserGender.text == "" ||
+            inputUserLocation.text == "" {
+            labelError.text = "Please enter in all fields."
+            labelError.isHidden = false
         } else {
-            self.updateProfile(userID: userID!)
+            // Upload Image
+            labelError.isHidden = true
+            // Upload Image
+            let imageUID = NSUUID().uuidString
+            let storage = FIRStorage.storage().reference().child("Profile Images").child("\(imageUID)")
+            
+            if let imageUpload = UIImagePNGRepresentation(self.inputUserImage.image!) {
+                storage.put(imageUpload, metadata: nil,
+                            completion: { (metadata, error) in
+                    if error != nil {
+                        print(error as! String)
+                        return
+                    }
+                    // Update Profile Image with URL
+                    if let imageURL = metadata?.downloadURL()?.absoluteString {
+                        print("\(imageURL)")
+                        self.firebase.child("users").child(userID)
+                            .updateChildValues(["image": imageURL])
+                        
+                        self.updateProfile(userID: userID)
+                    }
+                })
+            } else {
+                self.updateProfile(userID: userID)
+            }
         }
     }
     
@@ -68,7 +90,9 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
             .updateChildValues(["name": self.inputUserName.text!,
                                 "age": self.inputUserAge.text!,
                                 "gender": self.inputUserGender.text!,
-                                "location": self.inputUserLocation.text!])
+                                "location": self.inputUserLocation.text!,
+                                "latitude": self.latitude,
+                                "longitude": self.longitude])
         
         self.performSegue(withIdentifier: "nextEditPush", sender: nil)
     }
@@ -89,7 +113,7 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         let userID = FIRAuth.auth()?.currentUser?.uid
         // Delegates
         inputUserGender.delegate   = self
-        // View Tasks
+       
         // Load User if avaiable
         self.firebase.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
@@ -109,6 +133,30 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         // Profile Image View on Tap -> Select Photo
         self.inputUserImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectImage)))
     }
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("Error while updating location " + error.localizedDescription)
+    }
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let locValue:CLLocationCoordinate2D = manager.location!.coordinate
+        print("Locations: \(locValue.latitude) \(locValue.longitude)")
+        let currentLocation = locations[locations.count - 1]
+        
+        CLGeocoder().reverseGeocodeLocation(currentLocation) {
+            (placements, error) -> Void in
+            if error != nil {
+                print("Location Error")
+            }
+            
+            if let placement = placements?.first {
+                self.latitude = locValue.latitude
+                self.longitude = locValue.longitude
+                self.inputUserLocation.text = ("\(placement.locality!), \(placement.administrativeArea!)")
+                self.locationManager.stopUpdatingLocation()
+            }
+        }
+        
+    }
+    
     
     // Present Image Picker
     func selectImage () {
