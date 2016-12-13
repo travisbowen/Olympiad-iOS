@@ -113,7 +113,7 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         let userID = FIRAuth.auth()?.currentUser?.uid
         // Delegates
         inputUserGender.delegate   = self
-       
+        
         // Load User if avaiable
         self.firebase.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
@@ -122,6 +122,8 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
             self.inputUserAge.text = value?["age"] as? String
             self.inputUserGender.text = value?["gender"] as? String
             self.inputUserLocation.text = value?["location"] as? String
+            self.latitude = (value?["latitude"] as? Double)!
+            self.longitude = (value?["longitude"] as? Double)!
             
             if value?["image"] as? String != "" {
                 let imageURL = NSURL(string: value?["image"] as! String)
