@@ -21,4 +21,6 @@ class User: NSObject {
     var motivation: String?
     var workout: String?
     var id: String?
+    var latitude: String?
+    var longitude: String?
 }

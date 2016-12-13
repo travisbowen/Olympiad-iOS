@@ -27,6 +27,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     var signedUserGender : String!
     var signedUserReason : String!
     var signedUserSkill : String!
+    var signedUserLatitude : String!
+    var signedUserLongitude : String!
     var returnCount = 0
 
     
@@ -86,6 +88,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
                 user.image = (dictionary["image"] as? String)!
                 user.motivation = (dictionary["motivation"] as? String)!
                 user.workout = (dictionary["time"] as? String)!
+    
                 
                 self.userList.append(user)
                 
@@ -104,6 +107,23 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
                 if self.signedUserSkill == user.skill{
                     self.skillList.append(user)
                 }
+            
+                
+//                //Sort by closest first
+//                userList.sort {() -> Bool in
+//                    CLLocationDistance distanceA = [userA.location getDistanceFromLocation:myLocation];
+//                    CLLocationDistance distanceB = [userB.location getDistanceFromLocation:myLocation];
+//                    
+//                    if (distanceA < distanceB) {
+//                        return NSOrderedAscending
+//                    } else if (distanceA > distanceB) {
+//                        return NSOrderedDescending;
+//                    } else {
+//                        return NSOrderedSame;
+//                    }
+//                    
+//                }
+                
             }
             DispatchQueue.main.async {
                 self.tableView.reloadData()

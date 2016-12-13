@@ -129,8 +129,12 @@ CLLocationManagerDelegate, GADBannerViewDelegate {
             }
             
             if let placement = placements?.first {
+                print(self.latitude)
+                print(self.longitude)
                 self.latitude = locValue.latitude
                 self.longitude = locValue.longitude
+                print(self.latitude)
+                print(self.longitude)
                 self.inputUserLocation.text = ("\(placement.locality!), \(placement.administrativeArea!)")
                 self.locationManager.stopUpdatingLocation()
             }
