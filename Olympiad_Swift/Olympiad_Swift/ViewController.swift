@@ -29,6 +29,9 @@ class ViewController: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: saveEmail, password: savePassw) { (user, error) in
                 if error == nil {
                     print("User logged in")
+                    AppState.sharedInstance.displayName = "Travis"
+                    AppState.sharedInstance.photoURL = user?.photoURL
+                    AppState.sharedInstance.signedIn = true
                     self.performSegue(withIdentifier: "loginPush", sender: nil)
                 } else {
                     print(error.debugDescription)
@@ -54,6 +57,9 @@ class ViewController: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: userEmail.text!, password: userPass.text!) { (user, error) in
                 if error == nil {
                     print("User logged in")
+                    AppState.sharedInstance.displayName = "Travis"
+                    AppState.sharedInstance.photoURL = user?.photoURL
+                    AppState.sharedInstance.signedIn = true
                     // Save Data to skip login screen in future
                     UserDefaults.standard.setValue(self.userEmail.text, forKeyPath: "email")
                     UserDefaults.standard.setValue(self.userPass.text, forKeyPath: "password")
