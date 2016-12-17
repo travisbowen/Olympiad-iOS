@@ -29,9 +29,14 @@ class ViewController: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: saveEmail, password: savePassw) { (user, error) in
                 if error == nil {
                     print("User logged in")
-                    AppState.sharedInstance.displayName = "Travis"
-                    AppState.sharedInstance.photoURL = user?.photoURL
-                    AppState.sharedInstance.signedIn = true
+                    self.firebase.child("users").child((user?.uid)!).observeSingleEvent(of: .value, with: { (snapshot) in
+                        // Get user value
+                        let value = snapshot.value as? NSDictionary
+                        let displayName = value?["name"] as? String
+                        AppState.sharedInstance.displayName = displayName
+                        AppState.sharedInstance.photoURL = user?.photoURL
+                        AppState.sharedInstance.signedIn = true
+                    })
                     self.performSegue(withIdentifier: "loginPush", sender: nil)
                 } else {
                     print(error.debugDescription)
@@ -57,9 +62,14 @@ class ViewController: UIViewController {
             FIRAuth.auth()?.signIn(withEmail: userEmail.text!, password: userPass.text!) { (user, error) in
                 if error == nil {
                     print("User logged in")
-                    AppState.sharedInstance.displayName = "Travis"
-                    AppState.sharedInstance.photoURL = user?.photoURL
-                    AppState.sharedInstance.signedIn = true
+                    self.firebase.child("users").child((user?.uid)!).observeSingleEvent(of: .value, with: { (snapshot) in
+                        // Get user value
+                        let value = snapshot.value as? NSDictionary
+                        let displayName = value?["name"] as? String
+                        AppState.sharedInstance.displayName = displayName
+                        AppState.sharedInstance.photoURL = user?.photoURL
+                        AppState.sharedInstance.signedIn = true
+                    })
                     // Save Data to skip login screen in future
                     UserDefaults.standard.setValue(self.userEmail.text, forKeyPath: "email")
                     UserDefaults.standard.setValue(self.userPass.text, forKeyPath: "password")
@@ -89,11 +99,18 @@ class ViewController: UIViewController {
         FIRAuth.auth()?.createUser(withEmail: self.userEmail.text!, password: self.userPass.text!) { (user, error) in
             if (error == nil) {
                 // User Signin Success
-                self.firebase.child("users").child(user!.uid).setValue(["email": self.userEmail.text!, "name": "",
-                                                                        "age": "", "gender": "", "location": "",
-                                                                        "latitude": "", "longitude": "",
-                                                                        "reason": "", "motivation": "", "skill": "",
-                                                                        "time": "", "image": "", "rateing": ""])
+                self.firebase.child("users").child(user!.uid).setValue([
+                    "email": self.userEmail.text!, "name": "",
+                    "age": "", "gender": "", "location": "",
+                    "latitude": "", "longitude": "",
+                    "reason": "", "motivation": "", "skill": "",
+                    "time": "", "image": "", "average": 5,
+                    "rating":[
+                        user!.uid: [
+                             "rating": 5.0
+                        ]
+                    ]
+                ])
                 // Save Email & Passowrd
                 if (self.userEmail.text! != "" && self.userPass.text! != "") {
                     UserDefaults.standard.setValue(self.userEmail.text!, forKeyPath: "email")

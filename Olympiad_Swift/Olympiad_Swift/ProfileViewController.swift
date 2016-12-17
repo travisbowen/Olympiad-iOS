@@ -27,6 +27,7 @@ class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerVie
     @IBOutlet weak var labelSkillLevel   : UILabel!
     @IBOutlet weak var menuItemBack      : UIMenuItem!
     @IBOutlet weak var buttonEditInfo    : UIButton!
+    @IBOutlet weak var userRating        : UILabel!
     
     
     // View Variables
@@ -58,6 +59,7 @@ class ProfileViewController : UIViewController, UITextFieldDelegate, UIPickerVie
             self.labelMotivation.text = value?["motivation"] as? String
             self.labelSkillLevel.text = value?["skill"] as? String
             self.labelWorkoutTime.text = value?["time"] as? String
+            self.userRating.text = "\((value!["average"] as! Double!)!)"
             
             if value?["image"] as? String != "" {
                 let imageURL = NSURL(string: value?["image"] as! String)

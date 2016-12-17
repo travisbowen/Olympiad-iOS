@@ -18,9 +18,12 @@ class User: NSObject {
     var image: String?
     var reason: String?
     var skill: String?
+    var average: Double?
+    var email: String?
     var motivation: String?
     var workout: String?
     var id: String?
-    var latitude: String?
-    var longitude: String?
+    var latitude: Double?
+    var longitude: Double?
+    var distance: Double?
 }

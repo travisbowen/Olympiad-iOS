@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import GoogleMobileAds
+import CoreLocation
 
 class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GADBannerViewDelegate {
     
@@ -27,9 +28,14 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     var signedUserGender : String!
     var signedUserReason : String!
     var signedUserSkill : String!
+    var signedUserEmail : String!
+    var selectedEmail   : String!
     var signedUserLatitude : String!
     var signedUserLongitude : String!
+    var currentUserLatitude : Double!
+    var currentUserLongitude : Double!
     var returnCount = 0
+    var userAverage : Double! = 0.0
 
     
     override func viewDidLoad() {
@@ -63,12 +69,18 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             self.signedUserGender = (value?["gender"] as? String)!
             self.signedUserReason = (value?["reason"] as? String)!
             self.signedUserSkill = (value?["skill"] as? String)!
+            self.signedUserSkill = (value?["email"] as? String)!
+            self.currentUserLatitude = (value?["latitude"] as? Double)!
+            self.currentUserLongitude = (value?["longitude"] as? Double)!
         })
         
         //Custom method pulling users
         fetchUsers()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        self.tableView.reloadData()
+    }
     
     //Custom method to retrieve users information
     func fetchUsers(){
@@ -82,48 +94,49 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
                 user.name = (dictionary["name"] as? String)!
                 user.gender = (dictionary["gender"] as? String)!
                 user.age = (dictionary["age"] as? String)!
+                user.email = (dictionary["email"] as? String)!
+                user.average = (dictionary["average"] as? Double)!
                 user.location = (dictionary["location"] as? String)!
+                user.latitude = (dictionary["latitude"] as? Double)!
+                user.longitude = (dictionary["longitude"] as? Double)!
                 user.reason = (dictionary["reason"] as? String)!
                 user.skill = (dictionary["skill"] as? String)!
                 user.image = (dictionary["image"] as? String)!
                 user.motivation = (dictionary["motivation"] as? String)!
                 user.workout = (dictionary["time"] as? String)!
-    
                 
-                self.userList.append(user)
+                let currentUserLocation = CLLocation(latitude: self.currentUserLatitude!, longitude: self.currentUserLongitude!)
+                let foundUserLocation = CLLocation(latitude: user.latitude!, longitude: user.longitude!)
+                
+                let distance : Double = (currentUserLocation.distance(from: foundUserLocation)/1000*0.62137119)
+                
+                user.distance = distance
+                
+                if user.email != self.signedUserEmail { self.userList.append(user) }
+                
+                self.userList.sort {$0.distance! < $1.distance!}
+                
+                print(self.userList.distance)
                 
                 if self.signedUserAge == user.age{
-                    self.ageList.append(user)
+                    if user.email != self.signedUserEmail { self.ageList.append(user) }
+                    self.ageList.sort {$0.distance! < $1.distance!}
                 }
                 
                 if self.signedUserGender == user.gender{
-                    self.genderList.append(user)
+                    if user.email != self.signedUserEmail { self.genderList.append(user) }
+                    self.genderList.sort {$0.distance! < $1.distance!}
                 }
     
                 if self.signedUserReason == user.reason{
-                    self.reasonList.append(user)
+                    if user.email != self.signedUserEmail { self.reasonList.append(user) }
+                    self.reasonList.sort {$0.distance! < $1.distance!}
                 }
                 
                 if self.signedUserSkill == user.skill{
-                    self.skillList.append(user)
+                    if user.email != self.signedUserEmail { self.skillList.append(user) }
+                    self.skillList.sort {$0.distance! < $1.distance!}
                 }
-            
-                
-//                //Sort by closest first
-//                userList.sort {() -> Bool in
-//                    CLLocationDistance distanceA = [userA.location getDistanceFromLocation:myLocation];
-//                    CLLocationDistance distanceB = [userB.location getDistanceFromLocation:myLocation];
-//                    
-//                    if (distanceA < distanceB) {
-//                        return NSOrderedAscending
-//                    } else if (distanceA > distanceB) {
-//                        return NSOrderedDescending;
-//                    } else {
-//                        return NSOrderedSame;
-//                    }
-//                    
-//                }
-                
             }
             DispatchQueue.main.async {
                 self.tableView.reloadData()
@@ -148,6 +161,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             cell.userNameLabel.text = user.name
             cell.userInfoLabel.text = user.gender! + "-" + user.age!
             cell.userLocationLabel.text = user.location
+            cell.userDistanceLabel.text = "\(String(format: "%.2f", user.distance!)) miles away"
+            cell.userRatingLabel.text = "\(user.average!)"
             
             if user.image != "" {
                 let imageURL = NSURL(string: user.image!)
@@ -162,6 +177,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             cell.userNameLabel.text = user.name
             cell.userInfoLabel.text = user.gender! + "-" + user.age!
             cell.userLocationLabel.text = user.location
+            cell.userDistanceLabel.text = "\(String(format: "%.2f", user.distance!)) miles away"
+            cell.userRatingLabel.text = "\(user.average!)"
             
             if user.image != "" {
                 let imageURL = NSURL(string: user.image!)
@@ -176,6 +193,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             cell.userNameLabel.text = user.name
             cell.userInfoLabel.text = user.gender! + "-" + user.age!
             cell.userLocationLabel.text = user.location
+            cell.userDistanceLabel.text = "\(String(format: "%.2f", user.distance!)) miles away"
+            cell.userRatingLabel.text = "\(user.average!)"
             
             if user.image != "" {
                 let imageURL = NSURL(string: user.image!)
@@ -190,6 +209,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             cell.userNameLabel.text = user.name
             cell.userInfoLabel.text = user.gender! + "-" + user.age!
             cell.userLocationLabel.text = user.location
+            cell.userDistanceLabel.text = "\(String(format: "%.2f", user.distance!)) miles away"
+            cell.userRatingLabel.text = "\(user.average!)"
             
             if user.image != "" {
                 let imageURL = NSURL(string: user.image!)
@@ -204,6 +225,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
             cell.userNameLabel.text = user.name
             cell.userInfoLabel.text = user.gender! + "-" + user.age!
             cell.userLocationLabel.text = user.location
+            cell.userDistanceLabel.text = "\(String(format: "%.2f", user.distance!)) miles away"
+            cell.userRatingLabel.text = "\(user.average!)"
             
             if user.image != "" {
                 let imageURL = NSURL(string: user.image!)
@@ -251,12 +274,13 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let userVC = storyboard?.instantiateViewController(withIdentifier: "UserProfileViewController") as! UserProfileViewController
-        userVC.userInfoObject = userList[indexPath.row]
+        userVC.userInfoObject = userList[indexPath.item]
         self.navigationController?.show(userVC, sender: self)
     }
     
     
     func setImageSettings(cell : TableViewCell){
+        
         cell.userImage.layer.borderWidth=1.0
         cell.userImage.layer.masksToBounds = false
         cell.userImage.layer.cornerRadius = 13
@@ -264,8 +288,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
         cell.userImage.layer.cornerRadius = cell.userImage.frame.size.height/2
         cell.userImage.clipsToBounds = true
     }
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

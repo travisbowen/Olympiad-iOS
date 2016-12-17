@@ -14,4 +14,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var userInfoLabel: UILabel!
     @IBOutlet weak var userLocationLabel: UILabel!
+    @IBOutlet weak var userDistanceLabel: UILabel!
+    @IBOutlet weak var userRatingLabel: UILabel!
 }

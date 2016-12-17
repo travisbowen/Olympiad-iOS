@@ -133,7 +133,7 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
             }
         })
         // Profile Image View on Tap -> Select Photo
-        self.inputUserImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(selectImage)))
+        self.inputUserImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(photoOrCameraAlert)))
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Error while updating location " + error.localizedDescription)
@@ -159,12 +159,34 @@ class EditAViewController : UIViewController, UITextFieldDelegate, UIPickerViewD
         
     }
     
-    
+    func photoOrCameraAlert() {
+        let alert = UIAlertController(title: "Upload Image", message: "Select Source", preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Take Photo", style: .default, handler: { (action: UIAlertAction!) in
+            self.takeImage()
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Photo Library", style: .default, handler: { (action: UIAlertAction!) in
+            self.selectImage()
+        }))
+        
+        present(alert, animated: true, completion: nil)
+    }
     // Present Image Picker
     func selectImage () {
         let imagePicker = UIImagePickerController()
         imagePicker.delegate = self
-        imagePicker.allowsEditing = true;
+        imagePicker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        imagePicker.allowsEditing = true
+        present(imagePicker, animated:true, completion:nil)
+    }
+    // Present Camera
+    func takeImage () {
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = UIImagePickerControllerSourceType.camera
+        imagePicker.showsCameraControls = true
+        imagePicker.allowsEditing = true
         present(imagePicker, animated:true, completion:nil)
     }
     
