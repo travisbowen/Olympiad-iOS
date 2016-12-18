@@ -145,9 +145,9 @@
 				1F365A8B1DD421BA00BE2FFC /* Olympiad_Swift.entitlements */,
 				1F02753A1DCEA8260037D5A1 /* AppDelegate.swift */,
 				1F02753C1DCEA8260037D5A1 /* ViewController.swift */,
-				B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */,
 				B045DD251DFB8F0300E15F13 /* RegisterAViewController.swift */,
 				B045DD271DFB8F1F00E15F13 /* RegisterBViewController.swift */,
+				B0F5DCC61DE51E04001A18D3 /* EditAViewController.swift */,
 				B0F5DCC81DE51E2A001A18D3 /* EditBViewController.swift */,
 				B0F5DCCA1DE51E38001A18D3 /* ProfileViewController.swift */,
 				1F4FF6E61DED506600AB949A /* PlaceViewController.swift */,
@@ -280,7 +280,7 @@
 				TargetAttributes = {
 					1F0275361DCEA8260037D5A1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = SSZA2FVX6P;
+						DevelopmentTeam = 473SHKFLJ4;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -611,7 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = SSZA2FVX6P;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -627,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Olympiad_Swift/Olympiad_Swift.entitlements;
-				DEVELOPMENT_TEAM = SSZA2FVX6P;
+				DEVELOPMENT_TEAM = 473SHKFLJ4;
 				INFOPLIST_FILE = Olympiad_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

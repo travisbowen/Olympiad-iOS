@@ -18,6 +18,7 @@ class RegisterAViewController : UIViewController, UITextFieldDelegate, UIPickerV
 CLLocationManagerDelegate, GADBannerViewDelegate {
     
     // View Outlets
+    @IBOutlet weak var clickImageText: UILabel!
     @IBOutlet weak var bannerView: GADBannerView!
     @IBOutlet weak var inputUserImage    : UIImageView!
     @IBOutlet weak var inputUserName     : UITextField!
@@ -53,6 +54,7 @@ CLLocationManagerDelegate, GADBannerViewDelegate {
             labelError.isHidden = false
         } else {
             labelError.isHidden = true
+            clickImageText.isHidden = true
             let userID = FIRAuth.auth()?.currentUser?.uid
             // Upload Image
             let imageUID = NSUUID().uuidString

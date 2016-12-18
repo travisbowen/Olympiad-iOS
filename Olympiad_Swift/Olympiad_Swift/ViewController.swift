@@ -28,6 +28,7 @@ class ViewController: UIViewController {
             //Signing into Firebase
             FIRAuth.auth()?.signIn(withEmail: saveEmail, password: savePassw) { (user, error) in
                 if error == nil {
+                    //                  print("User logged in")
                     print("User logged in")
                     self.firebase.child("users").child((user?.uid)!).observeSingleEvent(of: .value, with: { (snapshot) in
                         // Get user value
@@ -44,13 +45,13 @@ class ViewController: UIViewController {
             }
         }
     }
-
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
@@ -61,6 +62,8 @@ class ViewController: UIViewController {
             //Signing into Firebase
             FIRAuth.auth()?.signIn(withEmail: userEmail.text!, password: userPass.text!) { (user, error) in
                 if error == nil {
+                    //                  print("User logged in")
+                    //Save Data to skip login screen in future
                     print("User logged in")
                     self.firebase.child("users").child((user?.uid)!).observeSingleEvent(of: .value, with: { (snapshot) in
                         // Get user value
@@ -107,10 +110,10 @@ class ViewController: UIViewController {
                     "time": "", "image": "", "average": 5,
                     "rating":[
                         user!.uid: [
-                             "rating": 5.0
+                            "rating": 5.0
                         ]
                     ]
-                ])
+                    ])
                 // Save Email & Passowrd
                 if (self.userEmail.text! != "" && self.userPass.text! != "") {
                     UserDefaults.standard.setValue(self.userEmail.text!, forKeyPath: "email")
@@ -125,6 +128,6 @@ class ViewController: UIViewController {
             }
         }
     }
-
+    
 }
 

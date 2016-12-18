@@ -12,8 +12,8 @@ import GoogleMobileAds
 
 
 class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate {
-
-   
+    
+    
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var clientTable: UITableView!
@@ -29,7 +29,9 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         self.clientTable.register(UITableViewCell.self, forCellReuseIdentifier: "tableViewCell")
         
-        configureDatabase()
+        ref = FIRDatabase.database().reference()
+        
+        userInfo()
     }
     
     
@@ -38,11 +40,34 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
         textFieldShouldReturn(textField)
     }
     
-//    
-//    deinit {
-//        self.ref.child("messages").removeObserver(withHandle: _refHandle)
-//    }
-//    
+    
+    //    deinit {
+    //        self.ref.child("messages").removeObserver(withHandle: _refHandle)
+    //    }
+    
+    
+    func userInfo(){
+        let userID = FIRAuth.auth()?.currentUser?.uid
+        
+        self.ref.child("users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
+            // Get user value
+            let value = snapshot.value as? NSDictionary
+            let userName = value?["name"] as? String
+            
+            //            if value?["image"] as? String != "" {
+            //                let imageURL = NSURL(string: value?["image"] as! String)
+            //                let imageData = NSData(contentsOf:imageURL as! URL)
+            //                let profileImage = UIImage(data: imageData as! Data)
+            //                var image = profileImage
+            //            }
+            
+            AppState.sharedInstance.displayName = userName
+            //            AppState.sharedInstance.photoURL = image
+            AppState.sharedInstance.signedIn = true
+            self.configureDatabase()
+        })
+    }
+    
     
     func configureDatabase() {
         ref = FIRDatabase.database().reference()
@@ -102,11 +127,11 @@ class ChatViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func sendMessage(withData data: [String: String]) {
         var mdata = data
         mdata[Constants.MessageFields.name] = AppState.sharedInstance.displayName
-        if let photoURL = AppState.sharedInstance.photoURL {
-            mdata[Constants.MessageFields.photoURL] = photoURL.absoluteString
-        }
+        //        if let photoURL = AppState.sharedInstance.photoURL {
+        //            mdata[Constants.MessageFields.photoURL] = photoURL.absoluteString
+        //        }
         // Push data to Firebase Database
         self.ref.child("messages").childByAutoId().setValue(mdata)
     }
-
+    
 }
